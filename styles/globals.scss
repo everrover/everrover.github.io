@@ -1,0 +1,52 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import './component/styles.scss';
+
+
+// layout elements
+.header{
+  @apply overflow-hidden;
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.banner{
+  @apply absolute top-0 h-full w-auto;
+  z-index: 1;
+}
+
+.navbar{
+  @apply w-full top-0 text-2xl border-b border-green-400 border-opacity-25  bg-black flex flex-row justify-between items-center h-16 bg-opacity-40;
+  z-index: 100;
+}
+
+.banner-overlay{
+  @apply absolute top-0 h-full w-auto;
+  z-index: 40;
+}
+
+.nav-block{
+  @apply flex justify-center items-center;
+}
+
+// globals
+* {
+  @apply text-green-100;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-body{
+  @apply bg-gray-900;
+  min-height: 100vh;
+}
+
+.logo{
+  font-family: 'Permanent Marker', cursive;
+}
+
+a:hover{
+  cursor: pointer;
+}
