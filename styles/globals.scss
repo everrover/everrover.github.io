@@ -3,6 +3,7 @@
 @import "tailwindcss/utilities";
 
 @import './component/styles.scss';
+@import './container/styles.scss';
 @import './pages/styles.scss';
 
 
@@ -17,12 +18,6 @@
 .banner{
   @apply absolute top-0 h-full w-full;
   z-index: 1;
-}
-
-img{
-  height: 100%;
-  width: auto;
-  max-width: none;
 }
 
 .navbar{
@@ -70,6 +65,12 @@ a{
 
 a:hover{
   cursor: pointer;
+}
+
+img{
+  height: auto;
+  width: auto;
+  max-width: 100%;
 }
 
 /* width */

@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
       <nav className="sticky navbar top-0">
         <div className="nav-block ml-4">
           <Link href="/">
-            <Logo/>
+            <div className="link"><Logo/></div>
           </Link>
         </div>
         <div className="nav-block">

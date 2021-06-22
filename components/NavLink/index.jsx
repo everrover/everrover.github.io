@@ -5,7 +5,7 @@ function NavLink(props) {
   const {to="#"} = props
   return (
     <Link href={to}>
-      <div className="nav-element-link text-xl">
+      <div className="nav-element-link text-xl link">
         {props.children}
       </div>
     </Link>
