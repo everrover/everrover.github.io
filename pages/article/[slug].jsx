@@ -1,14 +1,12 @@
 import { promises as fs } from 'fs'
-import path from 'path'
-import ReactMarkdown from 'react-markdown'
 // import PropTypes from 'prop-types'
-import {PostInfo} from '../../components'
+import { ArticleMDBlock } from '../../containers'
 
 function ArticlePage(props) {
   const { article } = props
   return (
     <div className="w-full border bg-black bg-opacity-75 border-green-400 border-opacity-20 px-16 py-4">
-      <div className="ers-md-render"><ReactMarkdown>{article}</ReactMarkdown></div>
+      <div><ArticleMDBlock>{article}</ArticleMDBlock></div>
     </div>
   )
 }
