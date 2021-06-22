@@ -11,7 +11,6 @@ function HeadBox(props) {
       />
       <link rel="preconnect" href="https://fonts.gstatic.com"/>
       
-      <meta charset="utf-8" />
       <link rel="icon" href="/er-logo-svg" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#000000" />
@@ -22,6 +21,9 @@ function HeadBox(props) {
       <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"/>
       <link href="/fontawesome/css/all.css" rel="stylesheet"/>
       <title>Everrover.com | Home</title> 
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
     </Head>
   )
 }

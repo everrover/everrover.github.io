@@ -36,6 +36,7 @@
 
 // globals
 * {
+  outline: none;
   @apply text-green-100;
   // font-family: 'Roboto', sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -43,6 +44,10 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+*::selection{
+  outline: none;
 }
 
 code {

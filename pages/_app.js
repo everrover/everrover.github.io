@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
         </div>
         <div className="nav-block">
           <NavLink to="/">Home</NavLink>
+          <NavLink to="/archive/1">Archive</NavLink>
           <NavLink to="/about">About</NavLink>
         </div>
       </nav>
