@@ -1,5 +1,6 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
+import '../styles/component/Tag.module.scss'
 
 function Tag(props) {
   return (

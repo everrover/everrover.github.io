@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
       </div>: null}
     </div>
 
-    <div className="2xl:mx-96 xl:mx-48 md:mx-32 sm:mx-16 mx-2 py-16">
+    <div className="2xl:mx-96 xl:mx-48 md:mx-32 sm:mx-16 mx-2 md:py-16 py-2">
       <Component {...pageProps}/>
     </div>
     <Footer></Footer>
