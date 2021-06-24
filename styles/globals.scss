@@ -16,8 +16,17 @@
 }
 
 .banner{
-  @apply absolute top-0 h-full w-full;
+  @apply bg-black flex justify-center w-full;
+  height: 100vh;
+  overflow: hidden;
   z-index: 1;
+}
+
+.banner_img{
+  position: relative;
+  height: 100%;
+  width: auto;
+  max-width: none;
 }
 
 .navbar{
@@ -73,9 +82,9 @@ a:hover{
 }
 
 img{
-  height: auto;
+  height: 100%;
   width: auto;
-  max-width: 100%;
+  overflow: hidden;
 }
 
 /* width */

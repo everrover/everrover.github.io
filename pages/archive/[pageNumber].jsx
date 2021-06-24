@@ -34,7 +34,7 @@ export async function getStaticProps(context) {
   const {start, end} = await ArticleService.getMetaData()
   return {
     props: {
-      articles: articles.map(article=>({...article, slug: article.id, tags: article.tags.map(tag=>tag.title), date: article.publishedAt? article.publishedAt: null})),
+      articles: articles.map(article=>({...article, slug: article.id, tags: article.tags.map(tag=>tag.title), category: article.category.title, date: article.publishedAt? article.publishedAt: null})),
       start,
       end,
       current: pageNumber

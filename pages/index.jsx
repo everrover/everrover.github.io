@@ -13,7 +13,7 @@ function Home(props) {
       <div className="text-5xl font-semibold w-full border-green-400 border-opacity-20 border-b py-3 px-4 text-center">Recent posts</div>
       {
         articles && articles.length>0?
-        articles.map(article=><div className="post-info-block " key={article.slug} ><PostInfo slug={article.slug}  title={article.title} subtitle={article.subtitle} date={article.date} tags={article.tags} /></div>)
+        articles.map(article=><div className="post-info-block " key={article.slug} ><PostInfo category={article.category} slug={article.slug}  title={article.title} subtitle={article.subtitle} date={article.date} tags={article.tags} /></div>)
         :null
       }
       <div className="text-5xl font-semibold w-full py-3 px-4 text-center">
@@ -32,7 +32,7 @@ export async function getStaticProps(context) {
   console.log(articles)
   return {
     props: {
-      articles: articles.map(article=>{return {...article, slug: article.id, tags: article.tags.map(tag=>tag.title), date: article.publishedAt}})
+      articles: articles.map(article=>{return {...article, slug: article.id, tags: article.tags.map(tag=>tag.title), category: article.category? article.category.title: null, date: article.publishedAt? article.publishedAt: null}})
     }, // will be passed to the page component as props
   }
 }
