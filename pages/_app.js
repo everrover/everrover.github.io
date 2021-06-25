@@ -33,15 +33,14 @@ function MyApp({ Component, pageProps }) {
         <div className='flex my-4 py-2 md:border-b-4 border-b-2 border-green-400 border-opacity-40'>
           <Logo size="md:text-5xl text-3xl"/>
         </div>
-        <div className="my-2 mx-12 md:mx-36 text-center text-lg md:text-xl text-green-400 font-normal">
+        <div className="my-2 mx-4 sm:mx-12 md:mx-36 text-center text-lg md:text-xl text-green-400 font-normal">
           Exploring web-development and technology.
         </div>
-        <Button action={()=>router.push("/archive")}>Explore</Button>
       </div>: null}
     </div>
     {
       showNav?
-      <div className="fixed top-0 left-0 h-full w-full bg-black bg-opacity-95 navbar-links z-50">
+      <div className="fixed top-0 left-0 h-full w-full bg-black bg-opacity-95 z-50">
         <div className="fixed right-0 z-40">
           <button className="px-4 py-2" onClick={e=>{e.preventDefault(); setShowNav(!showNav)}}>
             <i className="fa fa-times text-4xl md:text-5xl hover:text-green-400"/>
@@ -54,7 +53,7 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>: null
     }
-    <div className="2xl:mx-96 xl:mx-48 md:mx-32 sm:mx-16 mx-2 md:py-16 py-2">
+    <div className="2xl:mx-96 xl:mx-48 md:mx-32 sm:mx-16 mx-0 md:py-16 py-2">
       <Component {...pageProps}/>
     </div>
     <Footer></Footer>
