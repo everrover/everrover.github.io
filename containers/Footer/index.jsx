@@ -22,7 +22,7 @@ function Footer(props) {
       </div>
       <div className="justify-center flex items-center md:text-md text-sm md:mx-3 mx-6 mb-8 mt-6 flex-wrap">
         <div className="text-center inline-block">
-          Created using <NextLogo/>,&nbsp;<NodeLogo/> and <ReactLogo/> and by yours truly,&nbsp; <Logo size="text-base" inline={true}/>
+          Created using <NextLogo/>,&nbsp;<NodeLogo/> and <ReactLogo/> by yours truly,&nbsp; <Logo size="text-base" inline={true}/>
         </div>
       </div>
     </footer>

@@ -11,8 +11,22 @@
 .header{
   @apply overflow-hidden;
   position: relative;
-  height: 60vh;
+  height: 100vh;
   overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 75vh;
+    /* Apply some styles */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-links {
+    display: none;
+    /* Apply some styles */
+  }
 }
 
 .banner{
@@ -20,23 +34,22 @@
   height: 100vh;
   overflow: hidden;
   z-index: 1;
+  position: relative;
 }
 
 .banner_img{
-  position: relative;
   height: 100%;
   width: auto;
   max-width: none;
 }
 
 .navbar{
-  @apply w-full top-0 text-2xl border-b border-green-400 border-opacity-25  bg-black flex flex-row justify-between items-center h-16 bg-opacity-40;
-  z-index: 100;
+  @apply w-full top-0 text-2xl border-b border-green-400 border-opacity-25  bg-black flex flex-row justify-between items-center h-16 bg-opacity-40 z-30;
 }
 
 .banner-overlay{
   @apply absolute top-0 h-full w-full;
-  z-index: 40;
+  z-index: 20;
 }
 
 .nav-block{
@@ -81,11 +94,11 @@ a:hover{
   cursor: pointer;
 }
 
-img{
-  height: 100%;
-  width: auto;
-  overflow: hidden;
-}
+// img{
+//   height: 100%;
+//   width: auto;
+//   overflow: hidden;
+// }
 
 /* width */
 ::-webkit-scrollbar {

@@ -12,7 +12,7 @@ function PostInfo(props) {
         e.preventDefault()
         router.push("/article/"+slug)
       }}>{title}</div>
-      <div className="my-1 md:text-2xl text-xl font-thin">{subtitle}</div>
+      <div className="my-1 md:text-2xl text-lg font-thin">{subtitle}</div>
       <div className="my-1 md:text-md text-sm ">Published on {dayjs(date).format("YYYY MMMM, DD")}</div>
       {tags.length>0? 
         <div className="flex flex-wrap items-center">

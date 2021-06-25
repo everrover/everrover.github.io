@@ -5,9 +5,9 @@ function NavLink(props) {
   const {to="#"} = props
   return (
     <Link href={to}>
-      <div className="nav-element-link text-xl link">
+      <a className="nav-element-link text-2xl sm:text-3xl md:text-4xl bg-gray-800 px-4 py-2">
         {props.children}
-      </div>
+      </a>
     </Link>
   )
 }

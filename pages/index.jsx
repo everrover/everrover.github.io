@@ -10,7 +10,7 @@ function Home(props) {
   const router = useRouter()
   return (
     <div className="w-full border bg-black bg-opacity-75 border-green-400 border-opacity-20 md:px-16 px-4 py-4">
-      <div className="text-3xl md:text-5xl font-semibold w-full border-green-400 border-opacity-20 border-b py-3 px-4 text-center">Recent posts</div>
+      <div className="text-3xl md:text-5xl font-semibold w-full border-green-400 text-green-500 border-opacity-20 border-b py-3 px-4 text-center">Recent posts</div>
       {
         articles && articles.length>0?
         articles.map(article=><div className="post-info-block " key={article.slug} ><PostInfo category={article.category} slug={article.slug}  title={article.title} subtitle={article.subtitle} date={article.date} tags={article.tags} /></div>)
