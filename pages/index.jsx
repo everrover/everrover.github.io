@@ -1,12 +1,20 @@
 import dayjs from 'dayjs'
 import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 // import Link from 'next/link'
 // import PropTypes from 'prop-types'
 import {Button, PostInfo} from '../components'
+import { useAppContext } from '../Context'
 import ArticleService from '../service/ArticleService'
 
 function Home(props) {
   const { articles } = props
+  const context = useAppContext()
+  useEffect(()=>{
+    context.dispatch({
+      type: "home-page-visit", pageType: 'home'
+    })
+  }, [])
   const router = useRouter()
   return (
     <div className="w-full border bg-black bg-opacity-75 border-green-400 border-opacity-20 md:px-16 px-4 py-4">

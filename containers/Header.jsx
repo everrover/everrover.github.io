@@ -2,15 +2,35 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link';
 import Image from 'next/image';
-import { Logo, LogoImg, NavLink } from '../components';
+import { Logo, LogoImg, NavLink, Tag } from '../components';
 import { useAppContext } from '../Context';
+import dayjs from 'dayjs';
 
 
 function Header(props) {
-  const [showNav, setShowNav] = useState(false)
+  const [showNav, setShowNav] = useState(false) 
+  const context = useAppContext()
+  let {title, page, subtitle, banner, pageType="home", publishedAt, tags =[], category} = context.state
 
-  const {state} = useAppContext()
-  const {title, page, subtitle, banner} = state
+  // CSS var params
+  let centerSubtitle = true, showPublishedDate = false, showTags = false
+  switch(pageType){
+    case 'article': 
+      title= <div className="md:text-5xl sm:text-3xl text-xl text-left font-bold text-green-400">{title}</div>
+      centerSubtitle = false
+      showPublishedDate = true
+      showTags = true
+      break
+    case 'about': break
+    case 'archive': 
+      title= <div className="md:text-5xl sm:text-3xl text-xl text-center font-bold text-green-400">{title}</div>
+      break
+    case 'home': 
+      title=<Logo size="md:text-5xl text-3xl"/>
+      subtitle = "Exploring web-development and technology."
+      break
+    default: break
+  }
 
   return (
     <>
@@ -18,7 +38,7 @@ function Header(props) {
         <nav className="sticky navbar top-0">
           <div className="nav-block ml-4">
             <Link href="/">
-              <a className="flex items-center"><LogoImg/><Logo inline={1}/></a>
+              <a className="flex items-center"><LogoImg/></a>
             </Link>
           </div>
           <div className="nav-block mr-3">
@@ -30,14 +50,32 @@ function Header(props) {
           </div>
         </nav>
         {banner ? <div className="absolute banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover"/></div>: null}
-        {banner ? <div className="banner-overlay top-0 h-full w-full flex flex-col items-center justify-center bg-black bg-opacity-70">
-          <div className='flex my-4 py-2 md:border-b-4 border-b-2 border-green-400 border-opacity-40'>
-            <Logo size="md:text-5xl text-3xl"/>
+        {banner ?
+          <div className="banner-overlay top-0 h-full w-full flex flex-col items-center justify-center bg-black bg-opacity-70">
+            <div className={`flex flex-col flex-wrap ${centerSubtitle? "items-center": "items-start header-elements"}`}>
+              <div className='flex m-4 py-2 md:border-b-2 border-b border-green-400 border-opacity-40 '>
+                {title}
+              </div>
+              <div className={`my-2 mx-4 ${centerSubtitle? "text-center": "text-left"} text-lg md:text-2xl text-green-600 font-normal`}>
+                {subtitle}
+              </div>
+              {
+                showPublishedDate?
+                <div className={`my-2 mx-4 italic ${centerSubtitle? "text-center": "text-left"} text-lg md:text-xl text-green-100 font-light`}>
+                  Published by <Logo size="text-lg" inline={true}/> on <strong>{dayjs(publishedAt).format("D MMMM, YYYY, dddd")}</strong>
+                </div>
+                :null
+              }
+              {
+                showTags>0? 
+                <div className="flex flex-wrap items-center mx-4">
+                  {category? <Tag key={category}>{category}</Tag>: null}
+                  {tags.map(tag=><Tag key={tag}>{tag}</Tag>)}
+                </div>: null
+              }
+            </div>
           </div>
-          <div className="my-2 mx-4 sm:mx-12 md:mx-36 text-center text-lg md:text-xl text-green-400 font-normal">
-            Exploring web-development and technology.
-          </div>
-        </div>: null}
+        : null}
       </div>
       {
         showNav?

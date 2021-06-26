@@ -53,7 +53,8 @@ class ArticleService{
     try{
       console.log("[ArticleService | getArticleDetails] Get artice details. Params: ", id)
       const response = await sculptureAPI.get(`/entity/article/${id}`)
-      console.log("[ArticleService | getArticleDetails] Get artice details | response: ", response)
+      // console.log("[ArticleService | getArticleDetails] Get artice details | response: ", response)
+      console.log("[ArticleService | getArticleDetails] Get artice details ")
       if(response && response.data && response.data.status){
         return {...response.data.body}
       }

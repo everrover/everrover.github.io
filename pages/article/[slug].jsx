@@ -1,13 +1,21 @@
-import { promises as fs } from 'fs'
 // import PropTypes from 'prop-types'
+import { useEffect } from 'react'
 import { ArticleMDBlock } from '../../containers'
+import { useAppContext } from '../../Context'
 import ArticleService from '../../service/ArticleService'
 
 function ArticlePage(props) {
-  const { article } = props
+  const { content, title, punlishedAt, subtitle, banner, tags=[], category=null } = props
+  const context = useAppContext()
+  useEffect(()=>{
+    context.dispatch({
+      title, banner, subtitle, type: "article-page-visit", pageType: 'article', punlishedAt, tags: tags.map(tag=>tag.title), category: category? category.title: null
+    })
+  }, [])
+  console.log(context.state, props)
   return (
     <div className="w-full border bg-black bg-opacity-75 border-green-400 border-opacity-20 px-16 py-4">
-      <div><ArticleMDBlock>{article}</ArticleMDBlock></div>
+      <div><ArticleMDBlock>{content}</ArticleMDBlock></div>
     </div>
   )
 }
@@ -20,13 +28,10 @@ export async function getStaticProps(context) {
   const {params} = context
   console.log(params)
   const articleDetails = await ArticleService.getArticleDetails(params.slug)
-  console.log()
-  // const filePath = path.join(process.cwd(), 'Floyds_algorithm.md')
-  const fc = await fs.readFile("public/Floyds-algorithm.md", 'utf8')
   console.log(params)
   return {
     props: {
-      article: articleDetails.content
+      ...articleDetails,
     }, // will be passed to the page component as props
   }
 }
