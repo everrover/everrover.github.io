@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs'
 // import PropTypes from 'prop-types'
 import { ArticleMDBlock } from '../../containers'
+import ArticleService from '../../service/ArticleService'
 
 function ArticlePage(props) {
   const { article } = props
@@ -17,21 +18,24 @@ ArticlePage.propTypes = {
 
 export async function getStaticProps(context) {
   const {params} = context
+  console.log(params)
+  const articleDetails = await ArticleService.getArticleDetails(params.slug)
+  console.log()
   // const filePath = path.join(process.cwd(), 'Floyds_algorithm.md')
   const fc = await fs.readFile("public/Floyds-algorithm.md", 'utf8')
-  // console.log(fc)
+  console.log(params)
   return {
     props: {
-      article: fc
+      article: articleDetails.content
     }, // will be passed to the page component as props
   }
 }
 
 export async function getStaticPaths(){
+  const articles = await ArticleService.getArticleList(1, 100)
   return{ 
     paths: [
-      { params: { slug: "graph-db-awesome" } },
-      { params: { slug: 'trial-and-error' } }
+      ...articles.map(article=>({params: { slug: article.id }}))
     ],
     fallback: true
   }

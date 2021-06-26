@@ -11,8 +11,7 @@ class ArticleService{
     ArticleService.debug = debug
   }
   
-  static getArticleList = async (page=1) => { 
-    const PAGE_SIZE = 5
+  static getArticleList = async (page=1, PAGE_SIZE = 5) => { 
     const ORDER_BY = "updatedAt"
     try{
       // console.log("[ArticleService | getArticleList] get all articles. Params: ", page, PAGE_SIZE, ORDER_BY)

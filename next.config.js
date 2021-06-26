@@ -5,4 +5,13 @@ module.exports = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     domains: ['firebasestorage.googleapis.com'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/archive/1',
+        destination: '/archive',
+        permanent: true,
+      },
+    ]
+  }
 }

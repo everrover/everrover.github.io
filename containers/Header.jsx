@@ -1,11 +1,17 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link';
+import Image from 'next/image';
 import { Logo, NavLink } from '../components';
+import { useAppContext } from '../Context';
+
 
 function Header(props) {
-  const [banner, setBanner] = useState({link: '/banner.png', title: "", subtitle: ""})
   const [showNav, setShowNav] = useState(false)
+
+  const {state} = useAppContext()
+  const {title, page, subtitle, banner} = state
+
   return (
     <>
       <div className="mb-4 header border-b border-green-400 border-opacity-25">
@@ -23,8 +29,8 @@ function Header(props) {
             }
           </div>
         </nav>
-        {banner && banner.link? <div className="banner top-0"><img src={banner.link} alt="Banner" className="banner_img"/></div>: null}
-        {banner && banner.link? <div className="banner-overlay top-0 h-full w-full flex flex-col items-center justify-center bg-black bg-opacity-70">
+        {banner ? <div className="absolute banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover"/></div>: null}
+        {banner ? <div className="banner-overlay top-0 h-full w-full flex flex-col items-center justify-center bg-black bg-opacity-70">
           <div className='flex my-4 py-2 md:border-b-4 border-b-2 border-green-400 border-opacity-40'>
             <Logo size="md:text-5xl text-3xl"/>
           </div>

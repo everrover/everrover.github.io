@@ -77,6 +77,10 @@ code {
     monospace;
 }
 
+hr{
+  @apply border-opacity-40 border-green-400;
+}
+
 .main-body{
   @apply bg-gray-900;
   min-height: 100vh;
