@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link';
 import Image from 'next/image';
-import { Logo, NavLink } from '../components';
+import { Logo, LogoImg, NavLink } from '../components';
 import { useAppContext } from '../Context';
 
 
@@ -18,7 +18,7 @@ function Header(props) {
         <nav className="sticky navbar top-0">
           <div className="nav-block ml-4">
             <Link href="/">
-              <a><Logo/></a>
+              <a className="flex items-center"><LogoImg/><Logo inline={1}/></a>
             </Link>
           </div>
           <div className="nav-block mr-3">
