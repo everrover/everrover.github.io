@@ -1,4 +1,5 @@
 .article-elem {
+  overflow-x: scroll;
   @apply text-green-50;
   &> p{
     @apply mb-4 mt-2 text-green-50;
@@ -105,10 +106,12 @@ code{
 
 pre code{
   font-family: 'Fira Code', monospace;
+  overflow-x: auto;
   @apply w-full block bg-gray-900 text-gray-200 p-3;
 }
 
 p code{
   font-family: 'Fira Code', monospace;
+  overflow-x: auto;
   @apply inline bg-gray-700 text-gray-100 p-1 mx-1 rounded-sm;
 }

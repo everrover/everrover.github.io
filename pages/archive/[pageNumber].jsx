@@ -29,7 +29,7 @@ export async function getStaticProps(context) {
 export async function getStaticPaths() {
   const meta = await ArticleService.getMetaData()
   const paths = []
-  for(let i=meta.start; i<=meta.end; i++){
+  for(let i=(meta.start === 1? 2: meta.start); i<=meta.end; i++){
     paths.push({params: {pageNumber: i.toString()}})
   }
   console.log(paths)

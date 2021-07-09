@@ -7,7 +7,7 @@ import footnotes from 'remark-footnotes'
 
 function ArticleElem(props) {
   return (
-    <div className="control px-8 py-4">
+    <div className="control md:px-8 md:py-4 px-2 py-2">
       <article className="article-elem">
         <ReactMarkdown remarkPlugins={[gfm, footnotes]} components={{ code: CodeBlock }}>
           {props.children}

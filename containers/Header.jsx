@@ -16,17 +16,17 @@ function Header(props) {
   let centerSubtitle = true, showPublishedDate = false, showTags = false
   switch(pageType){
     case 'article': 
-      title= <div className="md:text-5xl sm:text-3xl text-xl text-left font-bold text-green-400">{title}</div>
+      title= <div className="text-4xl text-left font-bold text-green-400">{title}</div>
       centerSubtitle = false
       showPublishedDate = true
       showTags = true
       break
     case 'about': break
     case 'archive': 
-      title= <div className="md:text-5xl sm:text-3xl text-xl text-center font-bold text-green-400">{title}</div>
+      title= <div className="text-4xl text-center font-bold text-green-400">{title}</div>
       break
     case 'home': 
-      title=<Logo size="md:text-5xl text-3xl"/>
+      title=<Logo size="text-5xl"/>
       subtitle = "Exploring web-development and technology."
       break
     default: break
@@ -56,12 +56,12 @@ function Header(props) {
               <div className='flex m-4 py-2 md:border-b-2 border-b border-green-400 border-opacity-40 '>
                 {title}
               </div>
-              <div className={`my-2 mx-4 ${centerSubtitle? "text-center": "text-left"} text-lg md:text-2xl text-green-600 font-normal`}>
+              <div className={`my-2 mx-4 ${centerSubtitle? "text-center": "text-left"} text-2xl text-green-600 font-normal`}>
                 {subtitle}
               </div>
               {
                 showPublishedDate?
-                <div className={`my-2 mx-4 italic ${centerSubtitle? "text-center": "text-left"} text-lg md:text-xl text-green-100 font-light`}>
+                <div className={`my-2 mx-4 italic ${centerSubtitle? "text-center": "text-left"} text-lg text-xl text-green-100 font-light`}>
                   Published by <Logo size="text-lg" inline={true}/> on <strong>{dayjs(publishedAt).format("D MMMM, YYYY, dddd")}</strong>
                 </div>
                 :null
@@ -82,7 +82,7 @@ function Header(props) {
         <div className="fixed top-0 left-0 h-full w-full bg-black bg-opacity-95 z-50">
           <div className="fixed right-0 z-40">
             <button className="px-4 py-2" onClick={e=>{e.preventDefault(); setShowNav(!showNav)}}>
-              <i className="fa fa-times text-4xl md:text-5xl hover:text-green-400"/>
+              <i className="fa fa-times text-5xl hover:text-green-400"/>
             </button>
           </div>
           <div className="h-full flex flex-col justify-center items-center">
