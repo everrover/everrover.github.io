@@ -50,7 +50,7 @@ function Header(props) {
             }
           </div>
         </nav>
-        {banner ? <div className="banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover"/></div>: null}
+        {banner ? <div className="banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover" quality={70}/></div>: null}
         {banner ?
           <div className="banner-overlay">
             <div className={`flex flex-col flex-wrap ${centerSubtitle? "items-center": "items-start header-elements"}`}>
@@ -88,7 +88,7 @@ function Header(props) {
           </div>
           <div className="h-full flex flex-col justify-center items-center">
             <NavLink setShowNav={setShowNav} to="/">Home</NavLink>
-            <NavLink setShowNav={setShowNav} to="/archive/1">Archive</NavLink>
+            <NavLink setShowNav={setShowNav} to="/archive">Archive</NavLink>
             <NavLink setShowNav={setShowNav} to="/about">About</NavLink>
           </div>
         </div>: null
