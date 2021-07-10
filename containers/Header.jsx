@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Logo, LogoImg, NavLink, Tag } from '../components';
 import { useAppContext } from '../Context';
 import dayjs from 'dayjs';
+import styles from '../styles/containers/Header.module.scss';
 
 
 function Header(props) {
@@ -35,7 +36,7 @@ function Header(props) {
   return (
     <>
       <div className="mb-4 header border-b border-green-400 border-opacity-25">
-        <nav className="sticky navbar top-0">
+        <nav className="absolute navbar top-0">
           <div className="nav-block ml-4">
             <Link href="/">
               <a className="flex items-center"><LogoImg/></a>
@@ -49,9 +50,9 @@ function Header(props) {
             }
           </div>
         </nav>
-        {banner ? <div className="absolute banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover"/></div>: null}
+        {banner ? <div className="banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover"/></div>: null}
         {banner ?
-          <div className="banner-overlay top-0 h-full w-full flex flex-col items-center justify-center bg-black bg-opacity-70">
+          <div className="banner-overlay">
             <div className={`flex flex-col flex-wrap ${centerSubtitle? "items-center": "items-start header-elements"}`}>
               <div className='flex m-4 py-2 md:border-b-2 border-b border-green-400 border-opacity-40 '>
                 {title}
@@ -79,7 +80,7 @@ function Header(props) {
       </div>
       {
         showNav?
-        <div className="fixed top-0 left-0 h-full w-full bg-black bg-opacity-95 z-50">
+        <div className={styles.nav_panel}>
           <div className="fixed right-0 z-40">
             <button className="px-4 py-2" onClick={e=>{e.preventDefault(); setShowNav(!showNav)}}>
               <i className="fa fa-times text-5xl hover:text-green-400"/>

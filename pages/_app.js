@@ -1,5 +1,5 @@
 import '../styles/globals.scss'
-import 'tailwindcss/tailwind.css'
+import '../styles/tailwind.scss'
 import {IconLink, NavLink, Logo, HeadBox, Button} from '../components'
 import { Footer, Header } from '../containers'
 import {ContextProvider} from '../Context.js'

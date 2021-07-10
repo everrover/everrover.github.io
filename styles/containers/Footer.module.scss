@@ -1,0 +1,26 @@
+.footer_nextjs_logo{
+  @apply inline bg-gray-100 w-16 h-8 px-1 rounded-sm;
+}
+
+.footer_nodejs_logo{
+  @apply inline bg-gray-100 bg-opacity-10 bg-transparent w-9 h-9 rounded-sm;
+}
+
+.footer_reactjs_logo{
+  @apply inline bg-gray-300 bg-opacity-10 w-9 h-9 p-1 rounded-sm;
+}
+
+.footer_block{
+  @apply bg-black border-t border-green-400 border-opacity-25 flex flex-col items-center justify-center mt-4;
+}
+
+.footer_icons_section{
+  @apply mt-8 mb-2 pb-2 flex items-center justify-center w-4/5 sm:w-2/5 border-b border-green-400 border-opacity-50 flex-wrap;
+}
+
+.footer_message_section{
+  @apply justify-center flex items-center md:text-base text-sm md:mx-3 mx-6 mb-8 mt-6 flex-wrap;
+  &> .footer_message{
+    @apply text-center inline-block;
+  }
+}
