@@ -7,6 +7,7 @@ import { useAppContext } from '../Context';
 import dayjs from 'dayjs';
 import styles from '../styles/containers/Header.module.scss';
 import Emoji from 'a11y-react-emoji';
+import JSON from '../service/static_content.json'
 
 
 function Header(props) {
@@ -29,7 +30,7 @@ function Header(props) {
       break
     case 'home': 
       title=<><LogoImg size="text-5xl"/><Logo size="text-5xl"/></>
-      subtitle = <>Exploring web-development, technology and a lushful earth</>
+      subtitle = JSON.home.SUBTITLE
       break
     default: break
   }
