@@ -1,17 +1,17 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+// import React from 'react'
+// import PropTypes from 'prop-types'
 
-function about(props) {
-  return (
-    <div>
-      About me
-    </div>
-  )
-}
+// function About(props) {
+//   return (
+//     <div>
+//       About me
+//     </div>
+//   )
+// }
 
-about.propTypes = {
+// About.propTypes = {
 
-}
+// }
 
-export default about
+// export default About
 

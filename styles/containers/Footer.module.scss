@@ -21,6 +21,6 @@
 .footer_message_section{
   @apply justify-center flex items-center md:text-base text-sm md:mx-3 mx-6 mb-8 mt-6 flex-wrap;
   &> .footer_message{
-    @apply text-center inline-block;
+    @apply text-center inline-block leading-10;
   }
 }

@@ -21,7 +21,12 @@ function Home(props) {
       <div className="text-3xl md:text-5xl font-semibold w-full border-green-400 text-green-500 border-opacity-20 border-b py-3 px-4 text-center">Recent posts</div>
       {
         articles && articles.length>0?
-        articles.map(article=><div className="post-info-block " key={article.slug} ><PostInfo category={article.category} slug={article.slug}  title={article.title} subtitle={article.subtitle} date={article.date} tags={article.tags} /></div>)
+        articles.map(
+          article=>
+          <div className="post-info-block " key={article.slug} >
+            <PostInfo category={article.category} slug={article.slug}  title={article.title} subtitle={article.subtitle} date={article.date} tags={article.tags} />
+          </div>
+        )
         :null
       }
       <div className="text-5xl font-semibold w-full py-3 px-4 text-center">

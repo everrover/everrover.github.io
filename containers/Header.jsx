@@ -6,6 +6,7 @@ import { Logo, LogoImg, NavLink, Tag } from '../components';
 import { useAppContext } from '../Context';
 import dayjs from 'dayjs';
 import styles from '../styles/containers/Header.module.scss';
+import Emoji from 'a11y-react-emoji';
 
 
 function Header(props) {
@@ -17,18 +18,18 @@ function Header(props) {
   let centerSubtitle = true, showPublishedDate = false, showTags = false
   switch(pageType){
     case 'article': 
-      title= <div className="text-4xl text-left font-bold text-green-400">{title}</div>
+      title= <div className="text-4xl text-left font-bold text-green-400 border-b border-green-400 border-opacity-30">{title}</div>
       centerSubtitle = false
       showPublishedDate = true
       showTags = true
       break
-    case 'about': break
+    // case 'about': break
     case 'archive': 
       title= <div className="text-4xl text-center font-bold text-green-400">{title}</div>
       break
     case 'home': 
-      title=<Logo size="text-5xl"/>
-      subtitle = "Exploring web-development and technology."
+      title=<><LogoImg size="text-5xl"/><Logo size="text-5xl"/></>
+      subtitle = <>Exploring web-development, technology and a lushful earth</>
       break
     default: break
   }
@@ -36,7 +37,7 @@ function Header(props) {
   return (
     <>
       <div className="mb-4 header border-b border-green-400 border-opacity-25">
-        <nav className="absolute navbar top-0">
+        <nav className={styles.navbar}>
           <div className="nav-block ml-4">
             <Link href="/">
               <a className="flex items-center"><LogoImg/></a>
@@ -44,7 +45,7 @@ function Header(props) {
           </div>
           <div className="nav-block mr-3">
             {
-              !showNav?
+              !showNav && false?
               <button className="px-2 py-1" onClick={e=>{e.preventDefault(); setShowNav(!showNav)}}><i className="fa fa-bars text-3xl hover:text-green-600"/></button>:
               null
             }
@@ -54,10 +55,10 @@ function Header(props) {
         {banner ?
           <div className="banner-overlay">
             <div className={`flex flex-col flex-wrap ${centerSubtitle? "items-center": "items-start header-elements"}`}>
-              <div className='flex m-4 py-2 md:border-b-2 border-b border-green-400 border-opacity-40 '>
+              <div className='flex m-4 py-2'>
                 {title}
               </div>
-              <div className={`my-2 mx-4 ${centerSubtitle? "text-center": "text-left"} text-2xl text-green-600 font-normal`}>
+              <div className={`my-2 mx-4 ${centerSubtitle? "text-center": "text-left"} text-2xl text-green-500 font-normal`}>
                 {subtitle}
               </div>
               {
@@ -79,7 +80,7 @@ function Header(props) {
         : null}
       </div>
       {
-        showNav?
+        showNav && false?
         <div className={styles.nav_panel}>
           <div className="fixed right-0 z-40">
             <button className="px-4 py-2" onClick={e=>{e.preventDefault(); setShowNav(!showNav)}}>

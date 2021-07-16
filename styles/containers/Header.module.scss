@@ -14,3 +14,8 @@
 .nav_panel_items{
   @apply h-full flex flex-col justify-center items-center;
 }
+
+.navbar{
+  @apply invisible;
+  @apply w-full top-0 text-2xl absolute bg-black flex flex-row justify-between items-center h-16 bg-opacity-20 z-30;
+}
