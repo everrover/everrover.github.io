@@ -6,7 +6,6 @@ import { Logo, LogoImg, NavLink, Tag } from '../components';
 import { useAppContext } from '../Context';
 import dayjs from 'dayjs';
 import styles from '../styles/containers/Header.module.scss';
-import Emoji from 'a11y-react-emoji';
 import JSON from '../service/static_content.json'
 
 
@@ -25,9 +24,9 @@ function Header(props) {
       showTags = true
       break
     // case 'about': break
-    case 'archive': 
-      title= <div className="text-4xl text-center font-bold text-green-400">{title}</div>
-      break
+    // case 'archive': 
+    //   title= <div className="text-4xl text-center font-bold text-green-400">{title}</div>
+    //   break
     case 'home': 
       title=<><LogoImg size="text-5xl"/><Logo size="text-5xl"/></>
       subtitle = JSON.home.SUBTITLE
@@ -45,10 +44,11 @@ function Header(props) {
             </Link>
           </div>
           <div className="nav-block mr-3">
-            {
+            {/* after > 3 pages created
               !showNav && false?
               <button className="px-2 py-1" onClick={e=>{e.preventDefault(); setShowNav(!showNav)}}><i className="fa fa-bars text-3xl hover:text-green-600"/></button>:
               null
+              */
             }
           </div>
         </nav>
@@ -65,7 +65,7 @@ function Header(props) {
               {
                 showPublishedDate?
                 <div className={`my-2 mx-4 italic ${centerSubtitle? "text-center": "text-left"} text-lg text-xl text-green-100 font-light`}>
-                  Published by <Logo size="text-lg" inline={true}/> on <strong>{dayjs(publishedAt).format("D MMMM, YYYY, dddd")}</strong>
+                  Posted by <Logo size="text-lg" inline={true}/> on <strong>{dayjs(publishedAt).format("D MMMM, YYYY, dddd")}</strong>
                 </div>
                 :null
               }
@@ -80,7 +80,7 @@ function Header(props) {
           </div>
         : null}
       </div>
-      {
+      {/* - todo - build after > 3 pages are added
         showNav && false?
         <div className={styles.nav_panel}>
           <div className="fixed right-0 z-40">
@@ -93,7 +93,7 @@ function Header(props) {
             <NavLink setShowNav={setShowNav} to="/archive">Archive</NavLink>
             <NavLink setShowNav={setShowNav} to="/about">About</NavLink>
           </div>
-        </div>: null
+        </div>: null*/
       }
     </>
   )

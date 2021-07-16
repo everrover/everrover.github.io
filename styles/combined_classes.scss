@@ -1,0 +1,21 @@
+
+// borders
+.border-color{
+  @apply border-green-400 border-opacity-40;
+}
+
+.border-x{
+  @apply border-l border-r border-color;
+}
+
+.border-y{
+  @apply border-t border-b border-color;
+}
+
+.border-bo{
+  @apply border-b border-color;
+}
+
+.border-all{
+  @apply border border-color;
+}

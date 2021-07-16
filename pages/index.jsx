@@ -7,6 +7,7 @@ import {Button, PostInfo} from '../components'
 import { useAppContext } from '../Context'
 import ArticleService from '../service/ArticleService'
 import JSON from '../service/static_content.json'
+import styles from '../styles/pages/Home.module.scss'
 
 function Home(props) {
   const { articles } = props
@@ -19,28 +20,30 @@ function Home(props) {
   const router = useRouter()
   return (
     <>
-    <div className="w-full border bg-black bg-opacity-75 border-green-400 border-opacity-20 md:px-16 px-4 py-4">
-      <div className="text-3xl md:text-5xl font-semibold w-full border-green-400 text-green-500 border-opacity-20 border-b py-3 px-4 text-center">Recent posts</div>
+    <div className="w-full border-y bg-black bg-opacity-75 md:px-16 px-4 py-4">
+      <div className="text-4xl font-semibold w-full text-green-500 border-bo py-3 px-4 text-center">Recent posts</div>
       {
         articles && articles.length>0?
         articles.map(
           article=>
-          <div className="post-info-block " key={article.slug} >
+          <div className={styles.post_info_block} key={article.slug} >
             <PostInfo category={article.category} slug={article.slug}  title={article.title} subtitle={article.subtitle} date={article.date} tags={article.tags} />
           </div>
         )
         :null
       }
+      {/** after > 5 articles are added - todo
       <div className="text-5xl font-semibold w-full py-3 px-4 text-center">
         <Button action={()=>router.push("/archive")}>Archive<i className="ml-2 text-black fa fa-arrow-right"></i></Button>
-      </div>
+      </div> 
+      */}
     </div>
-    <div className="w-full border bg-black border-green-400 border-opacity-20 md:px-16 px-4 py-4 mt-4">
-      <div className="text-3xl md:text-5xl font-semibold w-full border-green-400 text-green-500 border-opacity-20 border-b py-3 px-4 text-center">About</div>
+    <div className="w-full border-y bg-black md:px-16 px-4 py-4 mt-4">
+      <div className="text-3xl md:text-5xl font-semibold w-full text-green-500 border-bo py-3 px-4 text-center">About</div>
       <div className="my-4 mx-6 text-center text-xl">{JSON.home.ABOUT_ME.SECTION_ONE}</div>
       <div className="my-4 mx-6 text-center text-xl bg-gray-500 bg-opacity-20 px-4 py-2">{JSON.home.ABOUT_ME.INTENDED_MISSION}</div>
       <div className="text-5xl font-bold w-full py-3 px-4 text-center">
-        <Button action={()=>router.push("https://twitter.com/everrover")}>Let&apos;s meet<i className="ml-2 text-black fa fa-paper-plane"></i></Button>
+        <Button action={()=>router.push(JSON.links.TWITTER)}>Let&apos;s meet<i className="ml-2 text-black fa fa-paper-plane"></i></Button>
       </div>
     </div>
     </>
