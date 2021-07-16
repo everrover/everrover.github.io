@@ -1,11 +1,13 @@
 {
   "home": {
     "ABOUT_ME": {
-      "INTENDED_MISSION": "Entire rationale behind creation of this site is to log actions of my pursued endaevours and encourage visitors into leading natural and sustainable lives, all the while making our lives productive and happier using technology.",
+      "INTENDED_MISSION": "Entire rationale behind creation of this site is to log actions of my pursued endaevours. Also it is to encourage visitors into leading natural and sustainable lives, without missing out on technology.",
+      "INTENDED_MISSION_TMP": "Entire rationale behind creation of this site is to log actions of my pursued endaevours. Also it is to encourage visitors into leading natural and sustainable lives, all the while making our lives productive and happier using technology.",
       "SECTION_ONE": "Hey guys, I am a software engineer, web developer and a sucker for natural and sustainable lifestyle. I love roaming around in nature and welcome appreciation in form of some fresh fruits🥝 and mugful of beer🍺."
     },
     "TITLE": "logo-with-website-name",
-    "SUBTITLE": "Exploring web-development, technology and our lushful earth🌳."
+    "SUBTITLE": "Exploring web-development, technology and our lushful earth🌳.",
+    "BANNER": "/banner.png"
   },
   "archive": {
 

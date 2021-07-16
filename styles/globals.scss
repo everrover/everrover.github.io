@@ -1,6 +1,5 @@
 @import './tailwind.scss';
 
-@import './components/styles.scss';
 @import './containers/styles.scss';
 
 
@@ -19,6 +18,10 @@
 //   }
 // }
 
+.link{
+  @apply cursor-pointer;
+}
+
 .banner{
   @apply bg-black flex justify-center w-full absolute;
   height: 100%;
@@ -33,7 +36,7 @@
 }
 
 .banner-overlay{
-  @apply absolute top-0 h-full w-full flex flex-col items-center justify-center bg-black bg-opacity-70;
+  @apply absolute top-0 h-full w-full flex flex-col items-center justify-center bg-black bg-opacity-80;
   z-index: 20;
 }
 

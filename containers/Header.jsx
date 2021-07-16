@@ -10,18 +10,19 @@ import JSON from '../service/static_content.json'
 
 
 function Header(props) {
-  const [showNav, setShowNav] = useState(false) 
+  // const [showNav, setShowNav] = useState(false) 
   const context = useAppContext()
   let {title, page, subtitle, banner, pageType="home", publishedAt, tags =[], category} = context.state
 
   // CSS var params
-  let centerSubtitle = true, showPublishedDate = false, showTags = false
+  let centerSubtitle = true, showPublishedDate = false, showTags = false, hideNav = true
   switch(pageType){
     case 'article': 
-      title= <div className="text-4xl text-left font-bold text-green-400 border-b border-green-400 border-opacity-30">{title}</div>
+      title= <div className="text-4xl text-left font-bold text-green-400 border-bo pb-3">{title}</div>
       centerSubtitle = false
       showPublishedDate = true
       showTags = true
+      hideNav = false
       break
     // case 'about': break
     // case 'archive': 
@@ -30,48 +31,56 @@ function Header(props) {
     case 'home': 
       title=<><LogoImg size="text-5xl"/><Logo size="text-5xl"/></>
       subtitle = JSON.home.SUBTITLE
+      centerSubtitle = true
+      showPublishedDate = false
+      showTags = false
+      hideNav = true
       break
     default: break
   }
 
   return (
     <>
-      <div className="mb-4 header border-b border-green-400 border-opacity-25">
-        <nav className={styles.navbar}>
-          <div className="nav-block ml-4">
-            <Link href="/">
-              <a className="flex items-center"><LogoImg/></a>
-            </Link>
-          </div>
-          <div className="nav-block mr-3">
-            {/* after > 3 pages created
-              !showNav && false?
-              <button className="px-2 py-1" onClick={e=>{e.preventDefault(); setShowNav(!showNav)}}><i className="fa fa-bars text-3xl hover:text-green-600"/></button>:
-              null
-              */
-            }
-          </div>
-        </nav>
+      <div className="mb-4 header border-bo">
+        {
+          hideNav?
+          null:
+          <nav className={styles.navbar}>
+            <div className="nav-block ml-4">
+              <Link href="/">
+                <a className="flex items-center"><LogoImg/></a>
+              </Link>
+            </div>
+            <div className="nav-block mr-3">
+              {/* 
+                !showNav && false?
+                <button className="px-2 py-1" onClick={e=>{e.preventDefault(); setShowNav(!showNav)}}><i className="fa fa-bars text-3xl hover:text-green-600"/></button>:
+                null
+                */
+              }
+            </div>
+          </nav>
+        }
         {banner ? <div className="banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover" quality={70}/></div>: null}
         {banner ?
           <div className="banner-overlay">
-            <div className={`flex flex-col flex-wrap ${centerSubtitle? "items-center": "items-start header-elements"}`}>
-              <div className='flex m-4 py-2'>
+            <div className={`mx-10 my-4 flex flex-col flex-wrap ${centerSubtitle? "items-center": "items-start header-elements"}`}>
+              <div className='flex py-2'>
                 {title}
               </div>
-              <div className={`my-2 mx-4 ${centerSubtitle? "text-center": "text-left"} text-2xl text-green-500 font-normal`}>
+              <div className={`my-2 ${centerSubtitle? "text-center": "text-left"} text-2xl text-green-500 font-normal`}>
                 {subtitle}
               </div>
               {
                 showPublishedDate?
-                <div className={`my-2 mx-4 italic ${centerSubtitle? "text-center": "text-left"} text-lg text-xl text-green-100 font-light`}>
+                <div className={`my-2 italic ${centerSubtitle? "text-center": "text-left"} text-lg text-xl text-green-100 font-light`}>
                   Posted by <Logo size="text-lg" inline={true}/> on <strong>{dayjs(publishedAt).format("D MMMM, YYYY, dddd")}</strong>
                 </div>
                 :null
               }
               {
                 showTags>0? 
-                <div className="flex flex-wrap items-center mx-4">
+                <div className="flex flex-wrap items-center">
                   {category? <Tag key={category}>{category}</Tag>: null}
                   {tags.map(tag=><Tag key={tag}>{tag}</Tag>)}
                 </div>: null

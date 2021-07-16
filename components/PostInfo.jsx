@@ -7,8 +7,8 @@ function PostInfo(props) {
   const {title, subtitle, slug="#", date, tags=[], category} = props
   const router = useRouter()
   return (
-    <div className="flex flex-col justify-center items-start md:px-8 px-2 py-4 bg-opacity-10 ">
-      <div className="text-gray-100 hover:text-green-500 md:text-4xl text-2xl font-bold my-2 cursor-pointer" onClick={e=>{
+    <div className="flex flex-col justify-center items-start px-2 py-4 bg-opacity-10 ">
+      <div className="text-gray-100 hover:text-green-500 text-2xl font-bold my-2 cursor-pointer" onClick={e=>{
         e.preventDefault()
         router.push("/article/"+slug)
       }}>{title}</div>

@@ -1,10 +1,10 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
-import '../styles/components/Tag.module.scss'
+import styles from '../styles/components/Tag.module.scss'
 
 function Tag(props) {
   return (
-    <div className="tag">
+    <div className={styles.tag}>
       {props.children}
     </div>
   )

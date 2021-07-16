@@ -12,6 +12,7 @@
   @apply text-gray-100;
   &> p{
     @apply mb-4 mt-2 text-gray-100;
+    line-height: 1.7;
   }
   &> h1{
     @apply mb-4 pb-2 mt-6 text-4xl font-semibold text-green-400 border-b border-green-300 border-opacity-25;
@@ -125,5 +126,5 @@ pre code{
 p code{
   font-family: 'Fira Code', monospace;
   overflow-x: auto;
-  @apply inline bg-gray-700 text-gray-100 p-1 mx-1 rounded-sm;
+  @apply inline bg-gray-700 text-gray-100 px-1 mx-1 rounded-sm;
 }

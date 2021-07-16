@@ -15,7 +15,7 @@ class ArticleService{
     const ORDER_BY = "updatedAt"
     try{
       // console.log("[ArticleService | getArticleList] get all articles. Params: ", page, PAGE_SIZE, ORDER_BY)
-      const response = await sculptureAPI.get(`/entity/articles?page=${page}&size=${PAGE_SIZE}&orderBy=${ORDER_BY}`)
+      const response = await sculptureAPI.get(`/entity/articles?page=${page}&size=${PAGE_SIZE}&orderBy=${ORDER_BY}&isP=true`)
       if(response && response.data && response.data.status){
         // console.log("[ArticleService | getArticleList] get all articles | response: ", response.data)
         return [...response.data.body]

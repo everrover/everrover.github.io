@@ -11,7 +11,7 @@
 }
 
 .footer_block{
-  @apply bg-black border-t border-green-400 border-opacity-25 flex flex-col items-center justify-center mt-4;
+  @apply bg-black border-t border-green-400 border-opacity-40 flex flex-col items-center justify-center mt-4;
 }
 
 .footer_icons_section{
@@ -19,8 +19,8 @@
 }
 
 .footer_message_section{
-  @apply justify-center flex items-center md:text-base text-sm md:mx-3 mx-6 mb-8 mt-6 flex-wrap;
+  @apply justify-center flex items-center md:mx-3 mx-6 mb-8 mt-6 flex-wrap;
   &> .footer_message{
-    @apply text-center inline-block leading-10;
+    @apply text-center inline-block leading-10 text-lg text-gray-400 font-light;
   }
 }

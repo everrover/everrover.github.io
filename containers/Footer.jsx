@@ -23,7 +23,7 @@ function Footer(props) {
       </div>
       <div className={styles.footer_message_section}>
         <div className={styles.footer_message}>
-          Created using <NextLogo/>,&nbsp;<NodeLogo/> and <ReactLogo/> by yours truly,&nbsp; <Logo size="text_base" inline={true}/>
+          Created using <NextLogo/>,&nbsp;<NodeLogo/> and <ReactLogo/> by yours truly,&nbsp; <Logo size="text-xl" inline={true}/>
         </div>
       </div>
     </footer>

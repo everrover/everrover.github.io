@@ -14,7 +14,7 @@ function Home(props) {
   const context = useAppContext()
   useEffect(()=>{
     context.dispatch({
-      type: "home-page-visit", pageType: 'home'
+      type: "home-page-visit", pageType: 'home', banner: JSON.home.BANNER
     })
   }, [])
   const router = useRouter()

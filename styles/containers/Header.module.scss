@@ -16,6 +16,6 @@
 }
 
 .navbar{
-  @apply invisible;
-  @apply w-full top-0 text-2xl absolute bg-black flex flex-row justify-between items-center h-16 bg-opacity-20 z-30;
+// @apply bg-black bg-opacity-20;
+  @apply w-full top-0 text-2xl absolute flex flex-row justify-between items-center h-16 z-30;
 }
