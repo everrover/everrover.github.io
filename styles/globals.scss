@@ -11,13 +11,6 @@
   overflow: hidden;
 }
 
-// @media screen and (min-width: 768px) {
-//   .header {
-//     height: 75vh;
-//     /* Apply some styles */
-//   }
-// }
-
 .link{
   @apply cursor-pointer;
 }
@@ -46,12 +39,12 @@
 
 body{
   @apply bg-gray-900;
+  min-height: 100vh;
 }
 
 // globals
 * {
   outline: none;
-  font-size: 16px;
   @apply text-gray-300;
   // font-family: 'Roboto', sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -60,47 +53,33 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-@media screen and (min-width: 481px) and (max-width: 750px) {
+@media screen and (min-width: 240px) and (max-width: 479px) { // mobile
   * {
     font-size: 12px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) { // tablet
   * {
-    font-size: 12px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1079px) { // tablet
+  * {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1080px) { // tablet
+  * {
+    font-size: 18px;
   }
 }
 
-*::selection{
-  outline: none;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-hr{
-  @apply border-opacity-40 border-green-400;
-}
-
-.main-body{
-  @apply bg-gray-900;
-  min-height: 100vh;
-}
+// *::selection{
+//   outline: none;
+// }
 
 .logo{
   font-family: 'Permanent Marker', cursive;
-}
-
-a{
-  cursor: pointer;
-}
-
-a:hover{
-  cursor: pointer;
 }
 
 // img{
@@ -111,13 +90,13 @@ a:hover{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 1px;
-  height: 1px;
+  width: 2px;
+  height: 2px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  @apply bg-transparent;
+  @apply bg-blue-300 bg-opacity-25;
   height: 3px;
 }
 

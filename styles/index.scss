@@ -1,0 +1,23 @@
+
+@media screen and (min-width: 240px) and (max-width: 559px) { // mobile + extra
+  .page-content {
+    @apply w-full mx-auto;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 1079px) { // tablet
+  .page-content {
+    @apply w-4/5 mx-auto;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1439px) { // tablet
+  .page-content {
+    @apply mx-auto;
+    width: 720px;
+  }
+}
+@media screen and (min-width: 1440px) { // tablet
+  .page-content {
+    @apply mx-auto;
+    width: 960px;
+  }
+}

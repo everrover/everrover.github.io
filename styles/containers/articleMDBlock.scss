@@ -91,7 +91,7 @@ ul > li > ul> li > ul> li > ul > li{
 }
 
 em{
-  @apply text-green-200 italic;
+  @apply italic;
 }
 
 strong {
@@ -110,6 +110,10 @@ pre{
   @apply p-0 bg-transparent w-full mt-2 mb-4;
 }
 
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
 code{
   font-family: 'Fira Code', monospace;
 }

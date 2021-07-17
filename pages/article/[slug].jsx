@@ -14,7 +14,7 @@ function ArticlePage(props) {
   }, [])
   console.log(context.state, props)
   return (
-    <div className="w-full border bg-black bg-opacity-75 border-green-400 border-opacity-20 px-8 py-4">
+    <div className="w-full border bg-black bg-opacity-75 border-green-400 border-opacity-50 px-8 py-4">
       <div><ArticleMDBlock>{content}</ArticleMDBlock></div>
     </div>
   )

@@ -20,7 +20,7 @@ function Home(props) {
   const router = useRouter()
   return (
     <>
-    <div className="w-full border-y bg-black bg-opacity-75 md:px-16 px-4 py-4">
+    <div className="w-full border-all bg-black bg-opacity-75 md:px-16 px-4 py-4">
       <div className="text-4xl font-semibold w-full text-green-500 border-bo py-3 px-4 text-center">Recent posts</div>
       {
         articles && articles.length>0?
@@ -38,11 +38,11 @@ function Home(props) {
       </div> 
       */}
     </div>
-    <div className="w-full border-y bg-black md:px-16 px-4 py-4 mt-4">
-      <div className="text-3xl md:text-5xl font-semibold w-full text-green-500 border-bo py-3 px-4 text-center">About</div>
+    <div className="w-full border-all md:border bg-black md:px-16 px-4 py-4 mt-4">
+      <div className="text-4xl font-semibold w-full text-green-500 border-bo py-3 px-4 text-center">About me</div>
       <div className="my-4 mx-6 text-center text-xl">{JSON.home.ABOUT_ME.SECTION_ONE}</div>
-      <div className="my-4 mx-6 text-center text-xl bg-gray-500 bg-opacity-20 px-4 py-2">{JSON.home.ABOUT_ME.INTENDED_MISSION}</div>
-      <div className="text-5xl font-bold w-full py-3 px-4 text-center">
+      <div className="my-4 mx-6 text-center text-xl bg-gray-500 bg-opacity-20 px-4 py-2 rounded-md">{JSON.home.ABOUT_ME.INTENDED_MISSION}</div>
+      <div className="w-full py-3 px-4 text-center">
         <Button action={()=>router.push(JSON.links.TWITTER)}>Let&apos;s meet<i className="ml-2 text-black fa fa-paper-plane"></i></Button>
       </div>
     </div>
