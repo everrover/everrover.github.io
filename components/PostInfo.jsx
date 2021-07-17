@@ -8,7 +8,7 @@ function PostInfo(props) {
   const router = useRouter()
   return (
     <div className="flex flex-col justify-center items-start px-2 py-4 bg-opacity-10 ">
-      <div className="text-gray-100 hover:text-green-500 text-2xl font-bold my-2 cursor-pointer" onClick={e=>{
+      <div className="text-gray-100 hover:text-green-300 hover:underline text-2xl font-bold my-2 cursor-pointer" onClick={e=>{
         e.preventDefault()
         router.push("/article/"+slug)
       }}>{title}</div>
