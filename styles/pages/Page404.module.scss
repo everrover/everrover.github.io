@@ -1,0 +1,14 @@
+.page_404{
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  padding: 0;
+  @apply bg-gray-900 flex flex-col justify-center items-center;
+}
+
+.page_404_panel{
+  @apply bg-gray-800 px-6 pb-4 pt-2 flex flex-col justify-center items-center;
+}

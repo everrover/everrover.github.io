@@ -29,7 +29,7 @@ function Header(props) {
     //   title= <div className="text-4xl text-center font-bold text-green-400">{title}</div>
     //   break
     case 'home': 
-      title=<><LogoImg size="text-5xl"/><Logo size="text-5xl"/></>
+      title=<><LogoImg/><Logo size="text-5xl"/></>
       subtitle = JSON.home.SUBTITLE
       centerSubtitle = true
       showPublishedDate = false
@@ -48,7 +48,7 @@ function Header(props) {
           <nav className={styles.navbar}>
             <div className="nav-block ml-4">
               <Link href="/">
-                <a className="flex items-center"><LogoImg/></a>
+                <a className="flex items-center"><LogoImg size="h-14 w-14"/></a>
               </Link>
             </div>
             <div className="nav-block mr-3">
@@ -61,7 +61,7 @@ function Header(props) {
             </div>
           </nav>
         }
-        {banner ? <div className="banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover" quality={70}/></div>: null}
+        {banner ? <div className="banner top-0"><Image src={banner} alt="Banner" className="banner_img" layout="fill" objectPosition="left" objectFit="cover" quality={40}/></div>: null}
         {banner ?
           <div className="banner-overlay">
             <div className={`mx-10 my-4 flex flex-col flex-wrap ${centerSubtitle? "items-center": "items-start header-elements"}`}>
