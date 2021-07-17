@@ -13,7 +13,7 @@ function PostInfo(props) {
         router.push("/article/"+slug)
       }}>{title}</div>
       <div className="my-1 text-lg font-thin">{subtitle}</div>
-      <div className="my-1 text-sm ">Posted on {dayjs(date).format("YYYY MMMM, DD")}</div>
+      <div className="my-1 text-sm ">Posted on {dayjs(date).format("YYYY MMMM, DD, dddd")}</div>
       {tags.length>0? 
         <div className="flex flex-wrap items-center">
           {category? <Tag key={category}>{category}</Tag>: null}

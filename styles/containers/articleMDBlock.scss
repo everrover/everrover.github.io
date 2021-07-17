@@ -2,17 +2,20 @@
   &> *{
     @apply mt-2 mb-4;
   }
-  &> *> *{
-    @apply mt-2 mb-4;
-  }
-  &> *> *> *{
-    @apply mt-2 mb-4;
-  }
+  // &> *> *{
+  //   @apply mt-2 mb-4;
+  // }
+  // &> *> *> *{
+  //   @apply mt-2 mb-4;
+  // }
   overflow-x: scroll;
   @apply text-gray-100;
   &> p{
     @apply mb-4 mt-2 text-gray-100;
     line-height: 1.7;
+    &> a {
+      @apply text-green-400 hover:text-green-600 hover:border-solid border-b border-green-400 hover:border-green-600 border-dotted;
+    }
   }
   &> h1{
     @apply mb-4 pb-2 mt-6 text-4xl font-semibold text-green-400 border-b border-green-300 border-opacity-25;
@@ -34,9 +37,6 @@
   }
   &> blockquote{
     @apply bg-gray-800 border-l-2 border-gray-500 text-gray-100 pl-3 py-2;
-  }
-  &> a{
-    @apply text-blue-400 hover:text-blue-300 hover:underline;
   }
   &> table{
     @apply bg-gray-700 text-gray-50 mt-2 mb-4 mx-auto;
@@ -89,9 +89,14 @@ ul > li > ul> li > ul> li {
 ul > li > ul> li > ul> li > ul > li{
   list-style-type: square;
 }
-
+::marker{
+  @apply text-green-200;
+}
+li> *{
+  display: inline-block;
+}
 em{
-  @apply italic;
+  @apply text-green-200 italic;
 }
 
 strong {
