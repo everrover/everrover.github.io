@@ -42,7 +42,7 @@ export async function getStaticPaths(){
     paths: [
       ...articles.map(article=>({params: { slug: article.id }}))
     ],
-    fallback: true
+    fallback: true // disabled for export
   }
 }
 

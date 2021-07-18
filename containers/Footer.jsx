@@ -1,16 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { IconLink, Logo } from '../components'
-// import Image from 'next/image'
-// import NodeJSImage from '/node_logo.png'
-// import ReactJSImage from '/react_logo.png'
-// import PropTypes from 'prop_types'
 import JSON from '../service/static_content.json'
 import styles from '../styles/containers/Footer.module.scss'
 
-const NextLogo = (props) => <img src={'/nextjs_logo.png'} className={styles.footer_nextjs_logo} alt="Next Logo" title="Next.js"/>
-const NodeLogo = (props) => <img src={'/node_logo.png'} className={styles.footer_nodejs_logo} alt="Next Logo" title="Next.js"/>
-const ReactLogo = (props) => <img src={'/react_logo.png'} className={styles.footer_reactjs_logo} alt="Next Logo" title="Next.js"/>
+const NextLogo = (props) => <img src={'/images/nextjs_logo.png'} className={styles.footer_nextjs_logo} alt="Next Logo" title="Next.js"/>
+const NodeLogo = (props) => <img src={'/images/node_logo.png'} className={styles.footer_nodejs_logo} alt="Next Logo" title="Next.js"/>
+const ReactLogo = (props) => <img src={'/images/react_logo.png'} className={styles.footer_reactjs_logo} alt="Next Logo" title="Next.js"/>
 
 function Footer(props) {
   return (

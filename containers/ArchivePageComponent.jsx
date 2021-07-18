@@ -9,7 +9,7 @@ function ArchivePageComponent(props) {
   const context = useAppContext()
   useEffect(()=>{
     context.dispatch({
-      title: "Archive", banner: "/archive.jpeg", subtitle: "Enjoy the ride via mannual search only. Pagination coming soon.", type: "archive-page-visit", pageType: 'archive'
+      title: "Archive", banner: "/images/archive.jpeg", subtitle: "Enjoy the ride via mannual search only. Pagination coming soon.", type: "archive-page-visit", pageType: 'archive'
     })
   }, [])
   const { articles, start, end, current } = props

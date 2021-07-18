@@ -35,7 +35,7 @@ export async function getStaticPaths() {
   console.log(paths)
   return {
     paths,
-    fallback: false
+    fallback: false // disable for export
   }
 }
   

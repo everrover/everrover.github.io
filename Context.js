@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useReducer } from 'react'
 
-const initState = {banner: '/banner.png', pageType: 'home', pageTitle: '', pageSubtitle: '', publishedAt: Date.now(), tags: [], category: null}
+const initState = {banner: '/images/banner.png', pageType: 'home', pageTitle: '', pageSubtitle: '', publishedAt: Date.now(), tags: [], category: null}
 const store = createContext(initState)
 
 export function ContextProvider(props) {

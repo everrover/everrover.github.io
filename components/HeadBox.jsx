@@ -14,7 +14,7 @@ function HeadBox(props) {
         content="Web site created using create-react-app"
       />
       <link rel="preconnect" href="https://fonts.gstatic.com"/>
-      <link rel="icon" href="/logo.svg" />
+      <link rel="icon" href="/images/logo.svg" />
       {/* <link rel="icon" href="/er-logo-svg" /> */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#000000" />
