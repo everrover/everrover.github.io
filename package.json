@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "PORT=3020 next start",
+    "export": "next export",
     "build-start": "next build && PORT=3020 next start",
     "lint": "next lint"
   },
