@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "PORT=3020 next start",
+    "build": "rm -rf .next && next build",
+    "start": "next start",
     "export": "next export",
-    "build-start": "next build && PORT=3020 next start",
-    "lint": "next lint"
+    "build-start": "npm run build && PORT=3020 next start",
+    "lint": "next lint",
+    "clear": "rm-rf .next"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
