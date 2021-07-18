@@ -2,7 +2,8 @@
 import { useEffect } from 'react'
 import { ArticleMDBlock } from '../../containers'
 import { useAppContext } from '../../Context'
-import ArticleService from '../../service/ArticleService'
+import getArticleDetails from '../../service/api/getArticleDetails.js'
+import getArticlesList from '../../service/api/getArticlesList.js'
 
 function ArticlePage(props) {
   const { content, title, punlishedAt, subtitle, banner, tags=[], category=null } = props
@@ -26,9 +27,9 @@ ArticlePage.propTypes = {
 
 export async function getStaticProps(context) {
   const {params} = context
-  console.log(params)
-  const articleDetails = await ArticleService.getArticleDetails(params.slug)
-  console.log(params)
+  console.log("[Articles fetch] Req rcv:", context)
+  const articleDetails = await getArticleDetails(params.slug)
+  console.log("[Articles fetch] Res rcv:", articleDetails)
   return {
     props: {
       ...articleDetails,
@@ -37,10 +38,12 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths(){
-  const articles = await ArticleService.getArticleList(1, 100)
-  return{ 
+  console.log("[Articles fetch list] Req rcv!")
+  const articles = await getArticlesList(1, 100)
+  console.log("[Articles fetch list] Res rcv: ", articles)
+  return{
     paths: [
-      ...articles.map(article=>({params: { slug: article.id }}))
+      ...articles.map(article=>({params: { slug: article.slug }}))
     ],
     fallback: true // disabled for export
   }

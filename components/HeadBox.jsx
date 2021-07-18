@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-page-custom-font */
+/* eslint-disable @next/next/no-css-tags */
 import Head from 'next/head'
 import PropTypes from 'prop-types'
 import { useAppContext } from '../Context'
