@@ -1,68 +1,52 @@
-import dayjs from 'dayjs'
-import { useRouter } from 'next/router'
-import { useEffect } from 'react'
-// import Link from 'next/link'
 // import PropTypes from 'prop-types'
-import {Button, PostInfo} from '../components'
-import { useAppContext } from '../Context'
-import ArticleService from '../service/ArticleService'
-import JSON from '../service/static_content.json'
-import styles from '../styles/pages/Home.module.scss'
+import { useEffect } from 'react'
+import { ArticleMDBlock } from '../../containers'
+import { useAppContext } from '../../Context'
+import getArticleDetails from '../../service/api/getArticleDetails.js'
+import getArticlesList from '../../service/api/getArticlesList.js'
 
-function Home(props) {
-  const { articles } = props
+function ArticlePage(props) {
+  const { content, title, punlishedAt, subtitle, banner, tags=[], category=null } = props
   const context = useAppContext()
   useEffect(()=>{
     context.dispatch({
-      type: "home-page-visit", pageType: 'home', banner: JSON.home.BANNER
+      title, banner, subtitle, type: "article-page-visit", pageType: 'article', punlishedAt, tags: tags.map(tag=>tag.title), category: category? category.title: null
     })
   }, [])
-  const router = useRouter()
+  console.log(context.state, props)
   return (
-    <>
-    <div className="w-full border-all bg-black bg-opacity-75 md:px-16 px-4 py-4">
-      <div className="text-4xl font-semibold w-full text-green-500 border-bo py-3 px-4 text-center">Recent posts</div>
-      {
-        articles && articles.length>0?
-        articles.map(
-          article=>
-          <div className={styles.post_info_block} key={article.slug} >
-            <PostInfo category={article.category} slug={article.slug}  title={article.title} subtitle={article.subtitle} date={article.date} tags={article.tags} />
-          </div>
-        )
-        :null
-      }
-      {/** after > 5 articles are added - todo
-      <div className="text-5xl font-semibold w-full py-3 px-4 text-center">
-        <Button action={()=>router.push("/archive")}>Archive<i className="ml-2 text-black fa fa-arrow-right"></i></Button>
-      </div> 
-      */}
+    <div className="w-full border bg-black bg-opacity-75 border-green-400 border-opacity-50 px-8 py-4">
+      <div><ArticleMDBlock>{content}</ArticleMDBlock></div>
     </div>
-    <div className="w-full border-all md:border bg-black md:px-16 px-4 py-4 mt-4">
-      <div className="text-4xl font-semibold w-full text-green-500 border-bo py-3 px-4 text-center">About me</div>
-      <div className="my-4 mx-6 text-center text-xl">{JSON.home.ABOUT_ME.SECTION_ONE}</div>
-      <div className="my-4 mx-6 text-center text-xl bg-gray-500 bg-opacity-20 px-4 py-2 rounded-md">{JSON.home.ABOUT_ME.INTENDED_MISSION}</div>
-      <div className="w-full py-3 px-4 text-center">
-        <Button action={()=>router.push(JSON.links.TWITTER)}>Let&apos;s meet<i className="ml-2 text-black fa fa-paper-plane"></i></Button>
-      </div>
-    </div>
-    </>
   )
 }
 
-Home.propTypes = {
+ArticlePage.propTypes = {
 
 }
 
 export async function getStaticProps(context) {
-  const articles = await ArticleService.getArticleList(1)
-  console.log(articles)
+  const {params} = context
+  console.log("[Articles fetch] Req rcv:", context)
+  const articleDetails = await getArticleDetails(params.slug)
+  console.log("[Articles fetch] Res rcv:", articleDetails)
   return {
     props: {
-      articles: articles.map(article=>{return {...article, slug: article.id, tags: article.tags.map(tag=>tag.title), category: article.category? article.category.title: null, date: article.publishedAt? article.publishedAt: null}})
+      ...articleDetails,
     }, // will be passed to the page component as props
   }
 }
 
-export default Home
+export async function getStaticPaths(){
+  console.log("[Articles fetch list] Req rcv!")
+  const articles = await getArticlesList(1, 100)
+  console.log("[Articles fetch list] Res rcv: ", articles)
+  return{
+    paths: [
+      ...articles.map(article=>({params: { slug: article.slug }}))
+    ],
+    fallback: true // disabled for export
+  }
+}
 
+export default ArticlePage
