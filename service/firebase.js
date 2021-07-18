@@ -11,27 +11,13 @@ const firebaseConfig = {
   measurementId: "G-7CNDKZWT9S"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-// firebase.analytics();
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+}else {
+  firebase.app(); // if already initialized, use that one
+}// firebase.analytics();
 const db = firebase.firestore()
-db.settings({
-  ignoreUndefinedProperties: true,
-})
-// db.collection("tags").where("slug", "==", "naturee").get().then(res=>{res.forEach(doc=>console.log(doc.data()))})
-
 module.exports = {
   articles: db.collection("articles"),
   threads: db.collection("threads"),
 }
-
-// db.collection("users").add({
-//   first: "Ada",
-//   last: "Lovelace",
-//   born: 1815
-// })
-// .then((docRef) => {
-//   console.log("Document written with ID: ", docRef.id);
-// })
-// .catch((error) => {
-//   console.error("Error adding document: ", error);
-// });

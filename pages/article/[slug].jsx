@@ -2,7 +2,8 @@
 import { useEffect } from 'react'
 import { ArticleMDBlock } from '../../containers'
 import { useAppContext } from '../../Context'
-import getArticlesList from '../../service/api/getArticleList.js'
+import getArticleDetails from '../../service/api/getArticleDetails.js'
+import getArticlesList from '../../service/api/getArticlesList.js'
 
 function ArticlePage(props) {
   const { content, title, punlishedAt, subtitle, banner, tags=[], category=null } = props
@@ -27,7 +28,7 @@ ArticlePage.propTypes = {
 export async function getStaticProps(context) {
   const {params} = context
   console.log(params)
-  const articleDetails = await ArticleService.getArticleDetails(params.slug)
+  const articleDetails = await getArticleDetails(params.slug)
   console.log(params)
   return {
     props: {
@@ -37,8 +38,8 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths(){
-  const articles = await getArticleList(1, 100)
-  return{ 
+  const articles = await getArticlesList(1, 100)
+  return{
     paths: [
       ...articles.map(article=>({params: { slug: article.id }}))
     ],

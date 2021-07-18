@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 // import PropTypes from 'prop-types'
 import {Button, PostInfo} from '../components'
 import { useAppContext } from '../Context'
-import ArticleService from '../service/ArticleService'
+import getArticlesList from '../service/api/getArticlesList.js'
 import JSON from '../service/static_content.json'
 import styles from '../styles/pages/Home.module.scss'
 
@@ -55,7 +55,7 @@ Home.propTypes = {
 }
 
 export async function getStaticProps(context) {
-  const articles = await ArticleService.getArticleList(1)
+  const articles = await getArticlesList(1)
   console.log(articles)
   return {
     props: {
