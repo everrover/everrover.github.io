@@ -13,14 +13,8 @@ export function ContextProvider(props) {
     let newState = {...state}
     switch(type) {
       case 'about-page-visit':
-        newState = {...state, ...action}
-        return newState;
       case 'home-page-visit':
-        newState = {...state, ...action}
-        return newState;
       case 'archive-page-visit':
-        newState = {...state, ...action}
-        return newState;
       case 'article-page-visit':
         newState = {...state, ...action}
         return newState;

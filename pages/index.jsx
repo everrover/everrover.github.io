@@ -16,11 +16,11 @@ function Home(props) {
     context.dispatch({
       type: "home-page-visit", pageType: 'home', banner: JSON.home.BANNER
     })
-  }, [])
+  }, [JSON.home.BANNER])
   const router = useRouter()
   return (
     <>
-    <div className="w-full border-all bg-black bg-opacity-75 md:px-16 px-4 py-4">
+    <div className="w-full border-all bg-black bg-opacity-75 md:px-16 px-4 pt-4 pb-12">
       <div className="text-4xl font-semibold w-full text-green-500 border-bo py-3 px-4 text-center">Recent posts</div>
       {
         articles && articles.length>0?
