@@ -1,5 +1,3 @@
-# everrover.com
-
 ### Hey guyz, 👋
 
-Site is under construction/maintenence and will be available soon😉.
+The site has been moved to the link: [Site](https://everrover.com).
