@@ -75,7 +75,7 @@ Location:: New Delhi, India
 
 ### Work exp
 
-- <u>**Optum(@UnitedHealth Group)**</u> *(June 2021 - Present)* *Gurugram, Haryana, India*
+- **<u>Optum(@UnitedHealth Group)</u>** *(June 2021 - Present)* *Gurugram, Haryana, India*
   - **Senior Software Engineer** *(February 2023 - present)* *Gurugram, Haryana, India*
     - Performing a POC on NLP and AI-based decision tree traversal for patients and agents using our healthcare application interfaces and data corpus
     - Was part of the team responsible for building a more scalable and optimized version of the patient & appointment details on-boarding system. Reducing application P95 latency by >80% and associated service costs.
@@ -89,7 +89,7 @@ Location:: New Delhi, India
     - Unified Design Library: Streamlined and optimized the process of front-end calls to application end-points, thereby reducing errors(from ~0.3% to ~0.025%), improving end-to-end application latency and latency for multiple end-points
     - As a personal achievement, I received a commendation award from our Director, in the year '21
   - **Technologies used:** RDBMS:MySQL; AuroraDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...)
-- <u>**DocASAP**</u> *(Nov 2020 - May 2021)* *Noida, NCR, India*
+- **<u>DocASAP</u>** *(Nov 2020 - May 2021)* *Noida, NCR, India*
   - **Software Engineer**
     - Was responsible for building a reconciliation mechanism for healthcare search-index synchronization causing index-data to become eventually consistent at a faster rate with lesser number of updates
     - Was responsible for optimizing the healthcare search-index synchronization pipeline. This resulted in 40% load reduction on re-index API calls, allowing lesser time needed to reach an eventually consistent state
@@ -108,25 +108,25 @@ Location:: New Delhi, India
 
 ### Research work(currently focused on AI)
 
-- <u>**Github Repository**</u> *(Aug 2018 - Present)*
+- **<u>Github Repository</u>** *(Aug 2018 - Present)*
   Please have a look at my Github profile for all details(https://github.com/everrover/). It includes details of my personal learning history but to talk about my private repositories we should meet.
 
-- <u>**Analysis, implementation and review of cmodels**</u> *(August 2018 - May 2019)*
+- **<u>Analysis, implementation and review of cmodels</u>** *(August 2018 - May 2019)*
   Using autoencoder, U-Net based GAN and CNN deep learning architectures, models were built and trained on several datasets. Analysis was done on the results of outputs on test-set along with turing tests and their performance was compared. Using these models, a grayscale image colorization tool was built for others to use.
 
   **Technologies used**: Python, PyTorch, Django, JavaScript, ReactJS, Heroku
 
 ### Education
 
-- <u>**Netaji Subhas Institute of Technology, Delhi University**</u
+- **<u>Netaji Subhas Institute of Technology, Delhi University**</u
   *Bachelor of Engineering - BE, Computer Engineering*
   August 2015 - June 2019, ***7.03 CGPA***
   **Activities and societies**: Moksha '16 PR team, ASN(Algorithmic Society of NSIT)
-- <u>**Army Public School, Delhi Cantt.**</u
+- **<u>Army Public School, Delhi Cantt.**</u
   *12th Boards*
   April 2013 - March 2015, ***Grade 91.6%***
   **Activities and societies**: Swimming team, Event hosting team, Club leader of Cancer awareness society
-- <u>**Army Public School, Delhi Cantt.**</u
+- **<u>Army Public School, Delhi Cantt.**</u
   *10th Board*
   April 2007 - March 2013, ***9.4 CGPA***
   **Activities and societies**: Swimming team, Event hosting team, Club leader of Cancer awareness society, School Prefectorial Board
