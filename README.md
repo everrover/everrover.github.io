@@ -108,10 +108,12 @@ Location:: New Delhi, India
 
 ### Research work(currently focused on AI)
 
--  **Github Repository** *(Aug 2018 - Present)* 
+- **Github Repository** *(Aug 2018 - Present)* 
+
   Please have a look at my Github profile for all details(https://github.com/everrover/). It includes details of my personal learning history but to talk about my private repositories we should meet.
 
 - **Analysis, implementation and review of cmodels** *(August 2018 - May 2019)*
+
   Using autoencoder, U-Net based GAN and CNN deep learning architectures, models were built and trained on several datasets. Analysis was done on the results of outputs on test-set along with turing tests and their performance was compared. Using these models, a grayscale image colorization tool was built for others to use.
 
   **Technologies used**: Python, PyTorch, Django, JavaScript, ReactJS, Heroku
@@ -119,16 +121,27 @@ Location:: New Delhi, India
 ### Education
 
 - **Netaji Subhas Institute of Technology, Delhi University**
+
   *Bachelor of Engineering - BE, Computer Engineering*
+
   August 2015 - June 2019, ***7.03 CGPA***
+
   **Activities and societies**: Moksha '16 PR team, ASN(Algorithmic Society of NSIT)
+  
 - **Army Public School, Delhi Cantt.**
+
   *12th Boards*
+
   April 2013 - March 2015, ***Grade 91.6%***
+
   **Activities and societies**: Swimming team, Event hosting team, Club leader of Cancer awareness society
+  
 - **Army Public School, Delhi Cantt.**
+
   *10th Board*
+
   April 2007 - March 2013, ***9.4 CGPA***
+
   **Activities and societies**: Swimming team, Event hosting team, Club leader of Cancer awareness society, School Prefectorial Board
 
   - Achieved 2nd Rank in Delhi Interschool Swimming Competition '12.
