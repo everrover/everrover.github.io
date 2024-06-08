@@ -14,24 +14,24 @@ Location:: New Delhi, India
 
 **Professional skills**
 
-- <b><u>Programming languages:</u></b> **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
-- <b><u>Databases:</u></b> **ElasticSearch, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop, HDFS
-- <b><u>Messaging:</u></b> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
-- <b><u>Cloud services:</u></b> **AWS**, Google-cloud
-- <b><u>CI/CD:</u></b> **Kubernetes, Docker, Jenkins**, EC2, Github
-- <b><u>Tools:</u></b> Drools, Debezium, S3, Cloud Functions
-- <b><u>Frontend programming:</u></b> **JavaScript, ReactJS, HTML5/CSS, Materialize**
+- <u><b>Programming languages:</b></u> **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
+- <u><b>Databases:</b></u> **ElasticSearch, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop, HDFS
+- <u><b>Messaging:</b></u> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- <u><b>Cloud services:</b></u> **AWS**, Google-cloud
+- <u><b>CI/CD:</b></u> **Kubernetes, Docker, Jenkins**, EC2, Github
+- <u><b>Tools:</b></u> Drools, Debezium, S3, Cloud Functions
+- <u><b>Frontend programming:</b></u> **JavaScript, ReactJS, HTML5/CSS, Materialize**
 
 **Self-acquired Software Development skills**
 
-- <b><u>Programming languages:</u></b> Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
-- <b><u>Databases:</u></b> FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
-- <b><u>Messaging:</u></b> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
-- <b><u>Cloud services:</u></b> **AWS**, Google-cloud, Firebase, Vercel
-- <b><u>CI/CD:</u></b> **Kubernetes, Docker, Jenkins**, EC2, Github
-- <b><u>Tools:</u></b> Axios, Debezium, S3, Cloud Functions
-- <b><u>Frontend programming:</u></b> **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
-- <b><u>Deep-learning tools:</u></b> Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
+- <u><b>Programming languages:</b></u> Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
+- <u><b>Databases:</b></u> FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
+- <u><b>Messaging:</b></u> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- <u><b>Cloud services:</b></u> **AWS**, Google-cloud, Firebase, Vercel
+- <u><b>CI/CD:</b></u> **Kubernetes, Docker, Jenkins**, EC2, Github
+- <u><b>Tools:</b></u> Axios, Debezium, S3, Cloud Functions
+- <u><b>Frontend programming:</b></u> **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
+- <u><b>Deep-learning tools:</b></u> Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
 
 ### Work exp
 
