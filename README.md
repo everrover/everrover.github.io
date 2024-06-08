@@ -10,68 +10,28 @@ Email:: deyol.abhishek@gmail.com
 Phone:: +91 8130867503
 Location:: New Delhi, India
 
-**Skills**
+### Skills
 
-- Professional expertise
-  - Java
-    - Spring boot & Hibernate
-  - Python
-  - JavaScript
-    - NodeJS
-    - ExpressJS
-    - ReactJS
-    - NextJS
-  - HTML/HTML5
-  - CSS/Sass
-    - TailwindCSS
-    - BulmaCSS
-    - Bootstrap
-  - Shell scripting
-    - Bash scripting
-    - Powershell scripting
-- AWS Suite
-  - MSK
-  - AuroraDB
-  - SecretsManager
-  - EC2
-  -
-- Messaging
-  - Kafka
-  - SNS/SQS
-  - RabbitMQ
-- Database solutions
-  - ElasticSearch
-  - SQL
-    - PostgreSQL
-    - MySQL
-  - Hadoop
-  - MongoDB
-  - CouchBase
-  - DynamoDB
-  - Neo4j
-  - Caching solutions
-    - MemCache
-    - Redis
-- CI/CD, Virtualization & Infra
-  - Docker
-  - VirtualBox
-  - Kubernetes
-**Other things I've worked with**
-- ***Programming languages***
-  Golang, JavaScript
-- Tools
-  - AI chatbots: ChatGPT/Claude
-  - AI Augmentations
-  - Git
-    - Github
-    - Gitlab
-  - Development
-    - IntelliJ IDEA
-    - DataGrip
-    - VS Code
-    - JMeter
-    - Postman
-  - Browsers: Chrome/Safari/Brave/Edge
+**Professional skills**
+
+- Programming languages: **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
+- Databases: **ElasticSearch, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop, HDFS
+- Messaging: **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- Cloud services: **AWS**, Google-cloud
+- CI/CD: **Kubernetes, Docker, Jenkins**, EC2, Github
+- Tools: Drools, Debezium, S3, Cloud Functions
+- Frontend programming: **JavaScript, ReactJS, HTML5/CSS, Materialize**
+
+**Self-acquired Software Development skills**
+
+- Programming languages: Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
+- Databases: FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
+- Messaging: **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- Cloud services: **AWS**, Google-cloud, Firebase, Vercel
+- CI/CD: **Kubernetes, Docker, Jenkins**, EC2, Github
+- Tools: Axios, Debezium, S3, Cloud Functions
+- Frontend programming: **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
+- Deep-learning tools: Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
 
 ### Work exp
 
@@ -88,7 +48,7 @@ Location:: New Delhi, India
   - Built an application to allow search engines(initially with Google) to directly use results from our internal healthcare application interfaces. These results were used for populating description details on the search page, whenever an Optum on-boarded healthcare organizations and providers are searched for. This is used to generate direct leads to the healthcare provider's appointment page
   - Decision tree implementation: Built a more scalable and low-latency graph-database based decision tree implementation. Reduced P95 application latency by 95%(from ~10s to ~0.5s).
   - Unified Design Library: Streamlined and optimized the process of front-end calls to application end-points, thereby reducing errors(from ~0.3% to ~0.025%), improving end-to-end application latency and latency for multiple end-points
-  - As a personal achievement, I received a commendation award from our Director, in the year '21
+  - As a personal achievement, I received a commendation award from our Director, in the year '21<br>
   **Technologies used:** RDBMS:MySQL; AuroraDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...)
 - **DocASAP** *Noida, NCR, India*<br>
   **Software Engineer** *(Nov 2020 - May 2021)*<br>
