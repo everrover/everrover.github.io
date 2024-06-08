@@ -75,15 +75,15 @@ Location:: New Delhi, India
 
 ### Work exp
 
-- **Optum(@UnitedHealth Group)** *Gurugram, Haryana, India* *(June 2021 - Present)*
-  **Senior Software Engineer** *(February 2023 - present)* *Gurugram, Haryana, India*
+- **Optum(@UnitedHealth Group)** *Gurugram, Haryana, India* *(June 2021 - Present)*<br>
+  **Senior Software Engineer** *(February 2023 - present)* *Gurugram, Haryana, India*<br>
   - Performing a POC on NLP and AI-based decision tree traversal for patients and agents using our healthcare application interfaces and data corpus
   - Was part of the team responsible for building a more scalable and optimized version of the patient & appointment details on-boarding system. Reducing application P95 latency by >80% and associated service costs.
   - Slot onboarding for external organizations: For externally connected healthcare organizations for which provider slots were available externally, I built a system to hash and compare existing slot data within the system with the one fetched in real-time to trigger minimal updates in our consumer databases and search indexes. This reduced weekly update frequency by >60% hence the cost of calling those external end-points.
   - Healthcare search improvements: Was responsible for designing and executing several enhancements to our healthcare search algorithms. Thus increasing our leads by 10%.
       - A fuzzy search implementation for provider search workflows for more fluid navigation and searches within the decision tree.
-      - A SVM-based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider
-  **Software Engineer** *(June 2021 - January 2023)* *Gurugram, Haryana, India*
+      - A SVM-based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider<br>
+  **Software Engineer** *(June 2021 - January 2023)* *Gurugram, Haryana, India*<br>
   - Built an application to allow search engines(initially with Google) to directly use results from our internal healthcare application interfaces. These results were used for populating description details on the search page, whenever an Optum on-boarded healthcare organizations and providers are searched for. This is used to generate direct leads to the healthcare provider's appointment page
   - Decision tree implementation: Built a more scalable and low-latency graph-database based decision tree implementation. Reduced P95 application latency by 95%(from ~10s to ~0.5s).
   - Unified Design Library: Streamlined and optimized the process of front-end calls to application end-points, thereby reducing errors(from ~0.3% to ~0.025%), improving end-to-end application latency and latency for multiple end-points
