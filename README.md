@@ -14,24 +14,24 @@ Location:: New Delhi, India
 
 **Professional skills**
 
-- Programming languages: **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
-- Databases: **ElasticSearch, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop, HDFS
-- Messaging: **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
-- Cloud services: **AWS**, Google-cloud
-- CI/CD: **Kubernetes, Docker, Jenkins**, EC2, Github
-- Tools: Drools, Debezium, S3, Cloud Functions
-- Frontend programming: **JavaScript, ReactJS, HTML5/CSS, Materialize**
+- <b><u>Programming languages:</u></b> **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
+- <b><u>Databases:</u></b> **ElasticSearch, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop, HDFS
+- <b><u>Messaging:</u></b> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- <b><u>Cloud services:</u></b> **AWS**, Google-cloud
+- <b><u>CI/CD:</u></b> **Kubernetes, Docker, Jenkins**, EC2, Github
+- <b><u>Tools:</u></b> Drools, Debezium, S3, Cloud Functions
+- <b><u>Frontend programming:</u></b> **JavaScript, ReactJS, HTML5/CSS, Materialize**
 
 **Self-acquired Software Development skills**
 
-- Programming languages: Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
-- Databases: FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
-- Messaging: **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
-- Cloud services: **AWS**, Google-cloud, Firebase, Vercel
-- CI/CD: **Kubernetes, Docker, Jenkins**, EC2, Github
-- Tools: Axios, Debezium, S3, Cloud Functions
-- Frontend programming: **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
-- Deep-learning tools: Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
+- <b><u>Programming languages:</u></b> Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
+- <b><u>Databases:</u></b> FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
+- <b><u>Messaging:</u></b> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- <b><u>Cloud services:</u></b> **AWS**, Google-cloud, Firebase, Vercel
+- <b><u>CI/CD:</u></b> **Kubernetes, Docker, Jenkins**, EC2, Github
+- <b><u>Tools:</u></b> Axios, Debezium, S3, Cloud Functions
+- <b><u>Frontend programming:</u></b> **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
+- <b><u>Deep-learning tools:</u></b> Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
 
 ### Work exp
 
