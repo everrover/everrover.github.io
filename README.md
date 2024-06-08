@@ -84,7 +84,7 @@ Location:: New Delhi, India
         - A fuzzy search implementation for provider search workflows for more fluid navigation and searches within the decision tree.
         - A SVM-based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider
   - **Software Engineer** *(June 2021 - January 2023)* *Gurugram, Haryana, India*
-    - Built an application to allow consumer search engines(initiated with Google) to directly use results from our internal healthcare application interfaces. These results were used for presenting results on details page on searching for Optum on-boarded healthcare organizations and providers to generate direct leads.
+    - Built an application to allow search engines(initially with Google) to directly use results from our internal healthcare application interfaces. These results were used for populating description details on the search page, whenever an Optum on-boarded healthcare organizations and providers are searched for. This is used to generate direct leads to the healthcare provider's appointment page
     - Decision tree implementation: Built a more scalable and low-latency graph-database based decision tree implementation. Reduced P95 application latency by 95%(from ~10s to ~0.5s).
     - Unified Design Library: Streamlined and optimized the process of front-end calls to application end-points, thereby reducing errors(from ~0.3% to ~0.025%), improving end-to-end application latency and latency for multiple end-points
     - As a personal achievement, I received a commendation award from our Director, in the year '21
@@ -104,17 +104,14 @@ Location:: New Delhi, India
     - Worked as part of the team responsible for building out application end-points and interfaces for mortgage processing and monitoring. Technologies used: JavaScript, ReactJS, NodeJS, RDBMS:MySQL, Docker
 
 
-**Personal projects**
-
-- Web-crawling search with generative AI - ER_Crawler ✅ #1
-- Web-crawler for targeted NLP tasks #3
-- Web-crawler to scrape the API keys from Git, GitLab, major dev articles sites and hosted applications #Cybersecurity #4
-- [`mount-kronos`](https://github.com/everrover/mount-kronos) : Repertoire of DSA problems ✅ contd. #2
-- AI based tool to aid in learning and reporting on
+### Personal projects - All on [Github](https://github.com/everrover/)
 
 ### Research work(currently focused on AI)
 
-- **Analysis, implementation and review of cmodels** *(August 2018 - May 2019)*
+- <u>**Github Repository**</u> *(Aug 2018 - Present)*
+  Please have a look at my Github profile for all details(https://github.com/everrover/). It includes details of my personal learning history but to talk about my private repositories we should meet.
+
+- <u>**Analysis, implementation and review of cmodels**</u> *(August 2018 - May 2019)*
   Using autoencoder, U-Net based GAN and CNN deep learning architectures, models were built and trained on several datasets. Analysis was done on the results of outputs on test-set along with turing tests and their performance was compared. Using these models, a grayscale image colorization tool was built for others to use.
 
   **Technologies used**: Python, PyTorch, Django, JavaScript, ReactJS, Heroku
