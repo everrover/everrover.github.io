@@ -83,6 +83,7 @@ Location:: New Delhi, India
   - Healthcare search improvements: Was responsible for designing and executing several enhancements to our healthcare search algorithms. Thus increasing our leads by 10%.
       - A fuzzy search implementation for provider search workflows for more fluid navigation and searches within the decision tree.
       - A SVM-based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider<br>
+
 **Software Engineer** *(June 2021 - January 2023)* *Gurugram, Haryana, India*<br>
   - Built an application to allow search engines(initially with Google) to directly use results from our internal healthcare application interfaces. These results were used for populating description details on the search page, whenever an Optum on-boarded healthcare organizations and providers are searched for. This is used to generate direct leads to the healthcare provider's appointment page
   - Decision tree implementation: Built a more scalable and low-latency graph-database based decision tree implementation. Reduced P95 application latency by 95%(from ~10s to ~0.5s).
