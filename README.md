@@ -33,6 +33,27 @@ Location:: New Delhi, India
 - <u><b>Frontend programming:</b></u> **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
 - <u><b>Deep-learning tools:</b></u> Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
 
+
+**Cybersecurity**
+
+- Focus on: **Malware Development**, Red/Blue Teaming, System hardening, Secure programming & design, CTFs
+- Programming languages: **C++, Python, Java**, GoLang, Bash scripting, Powershell
+- Majority of the needed ones come pre-installed with Kali Linux, REM Linux and ParrotOS
+- Other tools: BurpSuite, Kubernetes, `msfvenom`
+- Visualization: **VMWare**, VirtualBox
+
+**Development and infra tools I'm well versed in**
+
+- Development Tools
+  - Jetbrains IDEs: IntelliJ, CLion, DataGrip, GoLand, RubyMine
+  - Others: VS Code, Atom, Visual Studio
+- Other tools: JMeter, Postman, Docker, Kubernetes, AWS CLI, Google's gcloud CLI, GitHub Co-pilot
+- Office suite: Microsoft, Google
+- Terminals: `zsh`, Terminal, Powershell, CMD
+- AI assistants: GitHub Co-pilot, ChatGPT, Claude, LLaMA(for running locally), Midjourney, DallE
+- Version control: Git, Github
+- Browsers: Google Chrome, Safari, Brave, Microsoft Edge, Mozilla Firefox
+
 ### Work exp
 
 - **Optum(@UnitedHealth Group)** *Gurugram, Haryana, India* *(June 2021 - Present)*<br>
