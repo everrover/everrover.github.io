@@ -59,22 +59,25 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
       - A fuzzy search implementation for provider search workflows for more fluid navigation and searches within the decision tree.
       - A SVM-based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider<br>
 
-**Software Engineer** *(June 2021 - January 2023)* *Gurugram, Haryana, India*<br>
+  **Software Engineer** *(June 2021 - January 2023)* *Gurugram, Haryana, India*<br>
   - Built an application to allow search engines(initially with Google) to directly use results from our internal healthcare application interfaces. These results were used for populating description details on the search page, whenever an Optum on-boarded healthcare organizations and providers are searched for. This is used to generate direct leads to the healthcare provider's appointment page
   - Decision tree implementation: Built a more scalable and low-latency graph-database based decision tree implementation. Reduced P95 application latency by 95%(from ~10s to ~0.5s).
   - Unified Design Library: Streamlined and optimized the process of front-end calls to application end-points, thereby reducing errors(from ~0.3% to ~0.025%), improving end-to-end application latency and latency for multiple end-points
   - As a personal achievement, I received a commendation award from our Director, in the year '21<br>
-  **Technologies used:** RDBMS:MySQL; AuroraDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...)
+  **Technologies used:** RDBMS:MySQL; AuroraDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...)<br>
+
 - **DocASAP** *Noida, NCR, India*<br>
   **Software Engineer** *(Nov 2020 - May 2021)*<br>
   - Was responsible for building a reconciliation mechanism for healthcare search-index synchronization causing index-data to become eventually consistent at a faster rate with lesser number of updates
   - Was responsible for optimizing the healthcare search-index synchronization pipeline. This resulted in 40% load reduction on re-index API calls, allowing lesser time needed to reach an eventually consistent state
-  - **Technologies used:** Drools, RDBMS:MySQL, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Docker, Kubernetes
+  - **Technologies used:** Drools, RDBMS:MySQL, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Docker, Kubernetes<br>
+
 - **Oravel Stays Pvt. Ltd** *Gurugram, Haryana, India*<br>
   **Software Engineer** *(July 2019 - Sept 2020)*<br>
   - RMS project: Responsible for building a Revenue Management System, a dynamic pricing dashboard, and associated backend services for pricing the rooms algorithmically and dynamically in real-time by taking multiple factors into account such as nearby events and occupancy of nearby hotels
   - Responsible for building and maintaining dashboards and algorithmic services associated with algorithmically managing the hotel room pricing. Contributors such as discounts, deals(and several others) were also tracked and maintained via the same.
-  - **Technologies used:** JavaScript, ReactJS, RDBMS:PostgreSQL, Java, Ruby, Ruby on Rails, Redis, Kafka, Docker, Kubernetes
+  - **Technologies used:** JavaScript, ReactJS, RDBMS:PostgreSQL, Java, Ruby, Ruby on Rails, Redis, Kafka, Docker, Kubernetes<br>
+
 - **ARX Technologies Pvt. Ltd** *Gurugram, Haryana, India* <br>
   **Software Intern** *(May 2018 - July 2018)*<br>
   - Worked as part of the team responsible for building out application end-points and interfaces for mortgage processing and monitoring. Technologies used: JavaScript, ReactJS, NodeJS, RDBMS:MySQL, Docker
@@ -82,11 +85,11 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 
 ### Personal projects - All on [Github](https://github.com/everrover/)
 
-### Research work(currently focused on AI)
-
 - **Github Repository** *(Aug 2018 - Present)* 
 
   Please have a look at my Github profile for all details(https://github.com/everrover/). It includes details of my personal learning history but to talk about my private repositories we should meet.
+
+### Research work(currently focused on AI)
 
 - **Analysis, implementation and review of cmodels** *(August 2018 - May 2019)*
 
