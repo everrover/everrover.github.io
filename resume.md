@@ -39,8 +39,8 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 **Development and infra tools I'm well versed in**
 
 - Development Tools
-  - Jetbrains IDEs: IntelliJ, CLion, DataGrip, GoLand, RubyMine
-  - Others: VS Code, Atom, Visual Studio
+  - Jetbrains IDEs: **IntelliJ**, CLion, PyCharm, **DataGrip**, GoLand, RubyMine
+  - Others: **VS Code**, Atom, Visual Studio
 - Other tools: JMeter, Postman, Docker, Kubernetes, AWS CLI, Google's gcloud CLI, GitHub Co-pilot
 - Office suite: Microsoft, Google
 - Terminals: `zsh`, Terminal, Powershell, CMD
@@ -64,7 +64,7 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
   - Decision tree implementation: Built a more scalable and low-latency graph-database based decision tree implementation. Reduced P95 application latency by 95%(from ~10s to ~0.5s).
   - Unified Design Library: Streamlined and optimized the process of front-end calls to application end-points, thereby reducing errors(from ~0.3% to ~0.025%), improving end-to-end application latency and latency for multiple end-points
   - As a personal achievement, I received a commendation award from our Director, in the year '21<br>
-  
+
   **Technologies used:** RDBMS:MySQL; AuroraDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...)<br>
 
 - **DocASAP** *Noida, NCR, India*<br>
@@ -86,7 +86,7 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 
 ### Personal projects - All on [Github](https://github.com/everrover/)
 
-- **Github Repository** *(Aug 2018 - Present)* 
+- **Github Repository** *(Aug 2018 - Present)*
 
   Please have a look at my Github profile for all details(https://github.com/everrover/). It includes details of my personal learning history but to talk about my private repositories we should meet.
 
