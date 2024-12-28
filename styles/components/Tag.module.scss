@@ -1,6 +1,0 @@
-.tag{
-  @apply text-base font-semibold rounded-sm text-black px-3 py-1 my-1 mr-4;
-  &:nth-child(even){@apply bg-blue-400;}
-  &:nth-child(odd){@apply bg-yellow-400;}
-  &:first-child{@apply bg-gray-200;}
-}
