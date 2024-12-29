@@ -1,22 +1,23 @@
-## Abhishek Deyol
+# Abhishek Deyol
 
 [LinkedIn](https://www.linkedin.com/in/abhishek-deyol/) | [Twitter](https://x.com/everrover) | [Github](https://github.com/everrover/) | [Website](https://everrover.com) | [Resume site](https://everrover.github.io)<br>
 
 Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi, India
 
-### Skills
+## Skills
 
-**Professional skills**
+### *Professional skills*
 
+- <u><b>Sofware development paradigms:</b></u> **Microservices, Event-driven architecture, POC driven development(Rapid prototyping),** Working with design-patterns, Secure engineering, Test Driven Development/Behavior Driven Development
 - <u><b>Programming languages:</b></u> **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
 - <u><b>Databases:</b></u> **ElasticSearch, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop, HDFS
-- <u><b>Messaging:</b></u> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- <u><b>Event messaging:</b></u> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
 - <u><b>Cloud services:</b></u> **AWS**, Google-cloud
 - <u><b>CI/CD:</b></u> **Kubernetes, Docker, Jenkins**, EC2, Github
 - <u><b>Tools:</b></u> Drools, Debezium, S3, Cloud Functions
 - <u><b>Frontend programming:</b></u> **JavaScript, ReactJS, HTML5/CSS, Materialize**
 
-**Self-acquired Software Development skills**
+### *Self-acquired Computer System skills*
 
 - <u><b>Programming languages:</b></u> Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
 - <u><b>Databases:</b></u> FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
@@ -28,15 +29,15 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 - <u><b>Deep-learning tools:</b></u> Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
 
 
-**Cybersecurity**
+### *Cybersecurity*
 
 - Focus on: **Malware Development**, Red/Blue Teaming, System hardening, Secure programming & design, CTFs
 - Programming languages: **C++, Python, Java**, GoLang, Bash scripting, Powershell
-- Majority of the needed ones come pre-installed with Kali Linux, REM Linux and ParrotOS
+- Tools of trade: Majority of the needed ones come pre-installed with Kali Linux, REM Linux and ParrotOS
 - Other tools: BurpSuite, Kubernetes, `msfvenom`
 - Visualization: **VMWare**, VirtualBox
 
-**Development and infra tools I'm well versed in**
+### *Development and infra tools I'm well versed with*
 
 - Development Tools
   - Jetbrains IDEs: **IntelliJ**, CLion, PyCharm, **DataGrip**, GoLand, RubyMine
@@ -48,35 +49,47 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 - Version control: Git, Github
 - Browsers: Google Chrome, Safari, Brave, Microsoft Edge, Mozilla Firefox
 
-### Work exp
+## Work experience
 
 - **Optum(@UnitedHealth Group)** *Gurugram, Haryana, India* *(June 2021 - Present)*<br>
   **Senior Software Engineer** *(February 2023 - present)* *Gurugram, Haryana, India*<br>
-  - Performing a POC on NLP and AI-based decision tree traversal for patients and agents using our healthcare application interfaces and data corpus
-  - Was part of the team responsible for building a more scalable and optimized version of the patient & appointment details on-boarding system. Reducing application P95 latency by >80% and associated service costs.
-  - Slot onboarding for external organizations: For externally connected healthcare organizations for which provider slots were available externally, I built a system to hash and compare existing slot data within the system with the one fetched in real-time to trigger minimal updates in our consumer databases and search indexes. This reduced weekly update frequency by >60% hence the cost of calling those external end-points.
-  - Healthcare search improvements: Was responsible for designing and executing several enhancements to our healthcare search algorithms. Thus increasing our leads by 10%.
-      - A fuzzy search implementation for provider search workflows for more fluid navigation and searches within the decision tree.
-      - A SVM-based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider<br>
+  - **Built a framework for performing bulk jobs**: Designed and implemented an event driven map-reduce framework for performing bulk jobs on our patient and appointment data corpus. It has the capability to scale horizontally and vertically based on the job requirements and is highly configurable for the same. For the following jobs it has ***achieved transaction throughput of >3 million transactions per hour***:
+    - Patient data re-indexing
+    - Data synchronization and analysis with externally onboarded healthcare organizations
+    - Patient data re-encryption for enhanced data security and breach remediation
+  - **Drug interaction checker for pharmacies**:
+    - Pioneered the development for patient EHR on-boarding and analyzing the patient prescriptions for insurance companies and pharmacies [ Can't disclose more due to NDA ]
+  - Performed a POC on NLP and AI agent-based decision tree traversal for patients and agents using our healthcare application interfaces and data corpus [ Can't disclose more due to NDA ]
+  - **Patient & Appointment on-boarding project**:
+    - Analyzed, optimized and designed the entire core low-level workflow of 'patients and appointment on-boarding' system. Outcome was reduced application P99 latency by >80%, a horizontally scalable architecture and reduced associated service costs.
+    - Led the development of this optimized version of this on-boarding system
+  - **Slot onboarding for external organizations**: For externally connected healthcare organizations for which provider slots were available externally, I built a system to hash and compare existing slot data within the system with the one fetched in real-time to trigger minimal updates in our consumer databases and search indexes. *This reduced weekly update frequency by >60% hence the cost of calling those external end-points.*
+  - **Healthcare search improvements**: Was responsible for designing and executing several enhancements to our healthcare search algorithms. Thus *increasing our leads by 10%.*
+      - *Fuzzy provider search*: A fuzzy search implementation for provider search workflows for more fluid navigation and searches within the decision tree.
+      - *Alternate provider recommendation*: A SVM-based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider
+  - As a personal achievement in this tenure:
+    - I *received a commendation award* from our Director, Archana ❗️, in the year '24
+    - I *achieved a 2nd rank* during Optum's Public International Hackathon in emerging-tech category<br>
 
   **Software Engineer** *(June 2021 - January 2023)* *Gurugram, Haryana, India*<br>
-  - Built an application to allow search engines(initially with Google) to directly use results from our internal healthcare application interfaces. These results were used for populating description details on the search page, whenever an Optum on-boarded healthcare organizations and providers are searched for. This is used to generate direct leads to the healthcare provider's appointment page
-  - Decision tree implementation: Built a more scalable and low-latency graph-database based decision tree implementation. Reduced P95 application latency by 95%(from ~10s to ~0.5s).
-  - Unified Design Library: Streamlined and optimized the process of front-end calls to application end-points, thereby reducing errors(from ~0.3% to ~0.025%), improving end-to-end application latency and latency for multiple end-points
-  - As a personal achievement, I received a commendation award from our Director, in the year '21<br>
+  - **Search engine feed system**: Built an application to allow search engines(initially with Google) to directly use results from our internal healthcare application interfaces. These results were used for populating description details on the search page, whenever an Optum on-boarded healthcare organizations and providers are searched for. This is used to generate direct leads to the healthcare provider's appointment page
+  - **Decision tree implementation**: Built a more scalable and low-latency graph-database based decision tree implementation. Reduced P95 application latency by 95%(from ~10s to ~0.5s).
+  - **E2E application streamlining project**: Streamlined and optimized the process of front-end calls to application end-points, **thereby reducing errors(from ~0.3% to ~0.025%)**, improving end-to-end application latency and latency for multiple end-points
+  - As a personal achievement, I received a commendation award from our Director, Jaibeer Malik, in the year '21<br>
 
-  **Technologies used:** RDBMS:MySQL; AuroraDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...)<br>
+  **Technologies used:** RDBMS:MySQL; AuroraDB, MongoDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, Python open-source libraries, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...)<br>
 
 - **DocASAP** *Noida, NCR, India*<br>
   **Software Engineer** *(Nov 2020 - May 2021)*<br>
-  - Was responsible for building a reconciliation mechanism for healthcare search-index synchronization causing index-data to become eventually consistent at a faster rate with lesser number of updates
-  - Was responsible for optimizing the healthcare search-index synchronization pipeline. This resulted in 40% load reduction on re-index API calls, allowing lesser time needed to reach an eventually consistent state
+  - **Search index synchronization project**:
+    - Was responsible for building a reconciliation mechanism for healthcare search-index synchronization causing index-data to become eventually consistent at a faster rate with lesser number of updates and for bulk re-index operations
+    - Was responsible for optimizing the healthcare search-index synchronization pipeline. This resulted in ***40% load reduction on re-index API calls***, allowing lesser time needed to reach an eventually consistent state
   - **Technologies used:** Drools, RDBMS:MySQL, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Docker, Kubernetes<br>
 
 - **Oravel Stays Pvt. Ltd** *Gurugram, Haryana, India*<br>
   **Software Engineer** *(July 2019 - Sept 2020)*<br>
-  - RMS project: Responsible for building a Revenue Management System, a dynamic pricing dashboard, and associated backend services for pricing the rooms algorithmically and dynamically in real-time by taking multiple factors into account such as nearby events and occupancy of nearby hotels
-  - Responsible for building and maintaining dashboards and algorithmic services associated with algorithmically managing the hotel room pricing. Contributors such as discounts, deals(and several others) were also tracked and maintained via the same.
+  - **Dynamic real-time pricing project**: Responsible for building a Revenue Management System, a dynamic pricing dashboard, and associated backend services for pricing the rooms dynamically in real-time. This was done by taking multiple factors(grabbed from periodically scraped metrics from the web, private sources & associated AI insights, eg:nearby events and occupancy of nearby hotels) into account to generate the surge-price for the rooms
+  - Collaborated in building and maintaining pricing dashboard and backend-services, along with algorithmically managing the hotel room prices. Pricing contributors(such as discounts, deals, surge price and several others) were also tracked and maintained via the same, which were used by our pricing algorithm
   - **Technologies used:** JavaScript, ReactJS, RDBMS:PostgreSQL, Java, Ruby, Ruby on Rails, Redis, Kafka, Docker, Kubernetes<br>
 
 - **ARX Technologies Pvt. Ltd** *Gurugram, Haryana, India* <br>
@@ -92,11 +105,15 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 
 ### Research work(currently focused on AI)
 
-- **Analysis, implementation and review of cmodels** *(August 2018 - May 2019)*
+- **Analysis, implementation and review of colorization models** *(August 2018 - May 2019)*
 
   Using autoencoder, U-Net based GAN and CNN deep learning architectures, models were built and trained on several datasets. Analysis was done on the results of outputs on test-set along with turing tests and their performance was compared. Using these models, a grayscale image colorization tool was built for others to use.
 
   **Technologies used**: Python, PyTorch, Django, JavaScript, ReactJS, Heroku
+
+- **Finding side-effects to a combination of drugs** *(September 2024 - Present)*
+
+  Using publically available patient EHR records, for a set of drug prescriptions and associated side-effects were extracted and 
 
 ### Education
 
@@ -107,11 +124,11 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 - **Army Public School, Delhi Cantt.**<br>
   *12th Boards*<br>
   April 2013 - March 2015, ***Grade 91.6%***<br>
-  **Activities and societies**: Swimming team, Event hosting team, Club leader of Cancer awareness society<br>
+  **Activities and societies**: Swimming team, Event hosting team, Club lead of Cancer awareness society<br>
 - **Army Public School, Delhi Cantt.**<br>
   *10th Board*</br>
   April 2007 - March 2013, ***9.4 CGPA***<br>
-  **Activities and societies**: Swimming team, Event hosting team, Club leader of Cancer awareness society, School Prefectorial Board<br>
+  **Activities and societies**: Swimming team, Event hosting team, Club lead of Cancer awareness society, School Prefectorial Board<br>
   - Achieved 2nd Rank in Delhi Interschool Swimming Competition '12.
   - Achieved 3rd Rank in Army Interschool Marathon '12.
   - Achieved 97th percentile in International Math Olympiad '10
