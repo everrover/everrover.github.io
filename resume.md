@@ -83,25 +83,29 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
   **Software Engineer** *(Nov 2020 - May 2021)*<br>
   - **Search index synchronization project**:
     - Was responsible for building a reconciliation mechanism for healthcare search-index synchronization causing index-data to become eventually consistent at a faster rate with lesser number of updates and for bulk re-index operations
-    - Was responsible for optimizing the healthcare search-index synchronization pipeline. This resulted in ***40% load reduction on re-index API calls***, allowing lesser time needed to reach an eventually consistent state
-  - **Technologies used:** Drools, RDBMS:MySQL, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Docker, Kubernetes<br>
+    - Was responsible for optimizing the healthcare search-index synchronization pipeline. This resulted in ***40% load reduction on re-index API calls***, allowing lesser time needed to reach an eventually consistent state<br>
+
+  **Technologies used:** Drools, RDBMS:MySQL, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Docker, Kubernetes<br>
 
 - **Oravel Stays Pvt. Ltd** *Gurugram, Haryana, India*<br>
   **Software Engineer** *(July 2019 - Sept 2020)*<br>
   - **Dynamic real-time pricing project**: Responsible for building a Revenue Management System, a dynamic pricing dashboard, and associated backend services for pricing the rooms dynamically in real-time. This was done by taking multiple factors(grabbed from periodically scraped metrics from the web, private sources & associated AI insights, eg:nearby events and occupancy of nearby hotels) into account to generate the surge-price for the rooms
-  - Collaborated in building and maintaining pricing dashboard and backend-services, along with algorithmically managing the hotel room prices. Pricing contributors(such as discounts, deals, surge price and several others) were also tracked and maintained via the same, which were used by our pricing algorithm
-  - **Technologies used:** JavaScript, ReactJS, RDBMS:PostgreSQL, Java, Ruby, Ruby on Rails, Redis, Kafka, Docker, Kubernetes<br>
+  - Collaborated in building and maintaining pricing dashboard and backend-services, along with algorithmically managing the hotel room prices. Pricing contributors(such as discounts, deals, surge price and several others) were also tracked and maintained via the same, which were used by our pricing algorithm<br>
+  
+  **Technologies used:** JavaScript, ReactJS, RDBMS:PostgreSQL, Java, Ruby, Ruby on Rails, Redis, Kafka, Docker, Kubernetes<br>
 
 - **ARX Technologies Pvt. Ltd** *Gurugram, Haryana, India* <br>
   **Software Intern** *(May 2018 - July 2018)*<br>
-  - Worked as part of the team responsible for building out application end-points and interfaces for mortgage processing and monitoring. Technologies used: JavaScript, ReactJS, NodeJS, RDBMS:MySQL, Docker
+  - Worked as part of the team responsible for building out application end-points and interfaces for mortgage processing and monitoring<br>
+  
+  **Technologies used:** JavaScript, ReactJS, NodeJS, RDBMS:MySQL, Docker<br>
 
 
 ### Personal projects - All on [Github](https://github.com/everrover/)
 
 - **Github Repository** *(Aug 2018 - Present)*
 
-  Please have a look at my Github profile for all details(https://github.com/everrover/). It includes details of my personal learning history but to talk about my private repositories we should meet.
+  Please have a look at my Github profile for all details(https://github.com/everrover/). It includes details of my personal learning history. *But to talk about my private repositories we should meet.*
 
 ### Research work(currently focused on AI)
 
@@ -129,8 +133,8 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
   *10th Board*</br>
   April 2007 - March 2013, ***9.4 CGPA***<br>
   **Activities and societies**: Swimming team, Event hosting team, Club lead of Cancer awareness society, School Prefectorial Board<br>
-  - Achieved 2nd Rank in Delhi Interschool Swimming Competition '12.
-  - Achieved 3rd Rank in Army Interschool Marathon '12.
+  - Achieved 2nd Rank in Delhi Interschool Swimming Competition '11
+  - Achieved 3rd Rank in Army Interschool Marathon '10
   - Achieved 97th percentile in International Math Olympiad '10
   - Achieved 95th percentile in International Cyber Olympiad '09
 
