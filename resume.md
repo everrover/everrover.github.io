@@ -10,7 +10,7 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 
 - <u><b>Sofware development paradigms:</b></u> **Microservices, Event-driven architecture, POC driven development(Rapid prototyping),** Working with design-patterns, Secure engineering, Test Driven Development/Behavior Driven Development
 - <u><b>Programming languages:</b></u> **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
-- <u><b>Databases:</b></u> **ElasticSearch, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop, HDFS
+- <u><b>Databases:</b></u> **ElasticSearch/OpenSearch, MongoDB, Cassandra, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop/HDFS 
 - <u><b>Event messaging:</b></u> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
 - <u><b>Cloud services:</b></u> **AWS**, Google-cloud
 - <u><b>CI/CD:</b></u> **Kubernetes, Docker, Jenkins**, EC2, Github
@@ -114,10 +114,6 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
   Using autoencoder, U-Net based GAN and CNN deep learning architectures, models were built and trained on several datasets. Analysis was done on the results of outputs on test-set along with turing tests and their performance was compared. Using these models, a grayscale image colorization tool was built for others to use.
 
   **Technologies used**: Python, PyTorch, Django, JavaScript, ReactJS, Heroku
-
-- **Finding side-effects to a combination of drugs** *(September 2024 - Present)*
-
-  Using publically available patient EHR records, for a set of drug prescriptions and associated side-effects were extracted and 
 
 ### Education
 
