@@ -10,25 +10,25 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 
 ### *Professional skills*
 
-- <u>**Sofware development paradigms:**</u> **Microservices, Event-driven architecture, POC driven development(Rapid prototyping),** Working with design-patterns, Secure engineering, Test Driven Development/Behavior Driven Development
-- <u>**Programming languages:**</u> **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
-- <u>**Databases:**</u> **ElasticSearch/OpenSearch, MongoDB, Cassandra, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop/HDFS
-- <u>**Event messaging:**</u> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
-- <u>**Cloud services:**</u> **AWS**, Google-cloud
-- <u>**CI/CD:**</u> **Kubernetes, Docker, Jenkins**, EC2, Github
-- <u>**Tools:**</u> Drools, Debezium, S3, Cloud Functions
-- <u>**Frontend programming:**</u> **JavaScript, ReactJS, HTML5/CSS, Materialize**
+- **<u>Sofware development paradigms:</u>** **Microservices, Event-driven architecture, POC driven development(Rapid prototyping),** Working with design-patterns, Secure engineering, Test Driven Development/Behavior Driven Development
+- **<u>Programming languages:</u>** **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
+- **<u>Databases:</u>** **ElasticSearch/OpenSearch, MongoDB, Cassandra, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop/HDFS
+- **<u>Event messaging:</u>** **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- **<u>Cloud services:</u>** **AWS**, Google-cloud
+- **<u>CI/CD:</u>** **Kubernetes, Docker, Jenkins**, EC2, Github
+- **<u>Tools:</u>** Drools, Debezium, S3, Cloud Functions
+- **<u>Frontend programming:</u>** **JavaScript, ReactJS, HTML5/CSS, Materialize**
 
 ### *Self-acquired Computer System skills*
 
-- <u>**Programming languages:**</u> Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
-- <u>**Databases:**</u> FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
-- <u>**Messaging:**</u> **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
-- <u>**Cloud services:**</u> **AWS**, Google-cloud, Firebase, Vercel
-- <u>**CI/CD:**</u> **Kubernetes, Docker, Jenkins**, EC2, Github
-- <u>**Tools:**</u> Axios, Debezium, S3, Cloud Functions
-- <u>**Frontend programming:**</u> **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
-- <u>**Deep-learning tools:**</u> Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
+- **<u>Programming languages:</u>** Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
+- **<u>Databases:</u>** FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
+- **<u>Messaging:</u>** **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
+- **<u>Cloud services:</u>** **AWS**, Google-cloud, Firebase, Vercel
+- **<u>CI/CD:</u>** **Kubernetes, Docker, Jenkins**, EC2, Github
+- **<u>Tools:</u>** Axios, Debezium, S3, Cloud Functions
+- **<u>Frontend programming:</u>** **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
+- **<u>Deep-learning tools:</u>** Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
 
 
 ### *Cybersecurity*
