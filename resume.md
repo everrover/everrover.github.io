@@ -1,8 +1,21 @@
+---
+
+title: 🚀My resume
+postedAt: 2025-03-11:22:00:00+05:30  
+slug: 2025_03_11__Resume  
+banner: https://firebasestorage.googleapis.com/v0/b/everrover-site.appspot.com/o/blog_banners%2F_e35913b9-4ca5-4d27-b215-43e55a7da896.jpeg?alt=media&token=58b19166-1067-4b69-b825-e172b53aea63
+readingTime: 4 min read  
+author: everrover
+
+---
+
 # Abhishek Deyol
 
-[LinkedIn](https://www.linkedin.com/in/abhishek-deyol/) | [Twitter](https://x.com/everrover) | [Github](https://github.com/everrover/) | [Website](https://everrover.com) | [Resume site](https://everrover.github.io)
+Computer Engineer with nearly 6 years of professional experience in developing software designs and applications, optimizing system performance and implementing data-driven AI solutions. Proficient in Java, Spring, Python, Kafka and various other technologies, with a focus on delivering scalable, low-latency and event-driven software solutions.
 
-Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi, India
+On a personal front, I'm interested in all facets of computer science, especially in cybersecurity,  systems architecture and application-development. And I work consistently to keep learning and improving my skills and gain appropriate knowledge in these areas.
+
+Email📧:: deyol.abhishek@gmail.com | Phone📱:: +91 8130867503 | Location📍:: NCR, India
 
 ---
 
@@ -10,31 +23,35 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 
 ### *Professional skills*
 
-- **<u>Sofware development paradigms:</u>** **Microservices, Event-driven architecture, POC driven development(Rapid prototyping),** Working with design-patterns, Secure engineering, Test Driven Development/Behavior Driven Development
-- **<u>Programming languages:</u>** **Java, Spring boot & Hibernate, Python, Flask**, Bash scripting, PHP, Laravel
-- **<u>Databases:</u>** **ElasticSearch/OpenSearch, MongoDB, Cassandra, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL, MemCache**, NeptuneDB, DynamoDB, Hadoop/HDFS
-- **<u>Event messaging:</u>** **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
-- **<u>Cloud services:</u>** **AWS**, Google-cloud
-- **<u>CI/CD:</u>** **Kubernetes, Docker, Jenkins**, EC2, Github
-- **<u>Tools:</u>** Drools, Debezium, S3, Cloud Functions
-- **<u>Frontend programming:</u>** **JavaScript, ReactJS, HTML5/CSS, Materialize**
+- <u>**Sofware development paradigms:**</u> **Microservices, Event-driven architecture, POC driven development(Rapid prototyping),** Working with design-patterns, Secure engineering, Test Driven Development/Behavior Driven Development
+- <u>**Programming languages:**</u> **Java, Python**, Bash scripting, PHP, Ruby
+- <u>**Frameworks and libraries:**</u> **Spring boot & Hibernate, Flask**, Laravel, Ruby on Rails
+- <u>**Databases:**</u> **ElasticSearch/OpenSearch, MongoDB, Cassandra, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL**, MemCache, NeptuneDB, DynamoDB, Hadoop/HDFS
+- <u>**Event messaging:**</u> **Kafka, SNS/SQS**, ActiveMQ
+- <u>**Cloud services:**</u> **AWS**, Azure, Google-cloud
+- <u>**CI/CD:**</u> **Kubernetes, Docker, Github Actions**, EC2, Jenkins
+- <u>**Tools:**</u> **AWS suite** *(EC2, RDS, Secret Manager, SQS, SNS, Route53, KMS, OpenSearch, S3, Lambda, etc.)*, Drools, Debezium
+- <u>**Frontend programming:**</u> **ReactJS**, JavaScript, HTML5/CSS, Materialize
+- <u>**Deep-learning tools:**</u> Anaconda and major data manipulation libraries, SciKit Learn, NumPy, Pandas, Matplotlib, AWS-Sagemaker
 
 ### *Self-acquired Computer System skills*
 
-- **<u>Programming languages:</u>** Python, Django, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang
-- **<u>Databases:</u>** FirestoreDB, NeptuneDB, DynamoDB, Neo4j, Hadoop, HDFS, MongoDB, CouchBase
-- **<u>Messaging:</u>** **Kafka, SNS/SQS**, ActiveMQ, RabbitMQ, MQTT
-- **<u>Cloud services:</u>** **AWS**, Google-cloud, Firebase, Vercel
-- **<u>CI/CD:</u>** **Kubernetes, Docker, Jenkins**, EC2, Github
-- **<u>Tools:</u>** Axios, Debezium, S3, Cloud Functions
-- **<u>Frontend programming:</u>** **JavaScript, NextJS, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, TailwindCSS, Bootstrap**
-- **<u>Deep-learning tools:</u>** Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV
+- <u>**Programming languages and frameworks/libraries:**</u> **Python**, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang, PHP, Ruby, Ruby on Rails, Django, Laravel, Flask, FastAPI
+- <u>**Databases:**</u> **ElasticSearch/OpenSearch, Pinecone VectorDB, Neo4j, Redis**, FirestoreDB, NeptuneDB, DynamoDB, Hadoop, HDFS, MongoDB, CouchBase, MemCache, RDBMS:MySQL;AuroraDB;PostgreSQL, Cassandra
+- <u>**Event messaging:**</u> **Kafka**, SNS/SQS, ActiveMQ, RabbitMQ, MQTT
+- <u>**Cloud services:**</u> **AWS**, Google-cloud, Firebase, Vercel
+- <u>**CI/CD:**</u> **Kubernetes, Docker, Github Actions**, EC2
+- <u>**Tools:**</u> AWS suite(EC2, S3, Lambda, etc.), Drools, Debezium
+- <u>**Frontend programming:**</u> **JavaScript, NextJS, TailwindCSS, ReactJS**, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, Bootstrap
+- <u>**Deep-learning tools:**</u> Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV, NumPy, Pandas, Matplotlib, Seaborn
+- <u>**AI tools:**</u> OpenAI GPTs, DeepSeek(for running locally), Claude, LLaMA(for running locally)
+- <u>**Agentic workflows:**</u> **Langchain/Langgraph**, CrewAI
 
 
-### *Cybersecurity*
+### *Cybersecurity* - the very basics, will be learning more in-depth the future
 
-- Focus on: **Malware Development**, Red/Blue Teaming, System hardening, Secure programming & design, CTFs
-- Programming languages: **C++, Python, Java**, GoLang, Bash scripting, Powershell
+- Focus on: **Malware Development**, CTFs, Secure programming & design, Operating System hardening
+- Programming languages: **C++, Python, Java**, Bash scripting, Powershell
 - Tools of trade: Majority of the needed ones come pre-installed with Kali Linux, REM Linux and ParrotOS
 - Other tools: BurpSuite, Kubernetes, `msfvenom`
 - Visualization: **VMWare**, VirtualBox
@@ -46,8 +63,8 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
     - Others: **VS Code**, Atom, Visual Studio
 - Other tools: JMeter, Postman, Docker, Kubernetes, AWS CLI, Google's gcloud CLI, GitHub Co-pilot
 - Office suite: Microsoft, Google
-- Terminals: `zsh`, Terminal, Powershell, CMD
-- AI assistants: GitHub Co-pilot, ChatGPT, Claude, LLaMA(for running locally), Midjourney, DallE
+- Terminals: `zsh`, `bash`, Native terminal, Powershell, CMD
+- AI assistants: GitHub Co-pilot, ChatGPT, DeepSeek, Manus, Claude, LLaMA(for running locally), Midjourney, DallE, Udio
 - Version control: Git, Github
 - Browsers: Google Chrome, Safari, Brave, Microsoft Edge, Mozilla Firefox
 
@@ -59,20 +76,30 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 
 **Senior Software Engineer** *(February 2023 - present)* *Gurugram, Haryana, India*
 
-- **Built a framework for performing bulk jobs**: Designed and implemented an event driven map-reduce framework for performing bulk jobs on our patient and appointment data corpus. It has the capability to scale horizontally and vertically based on the job requirements and is highly configurable for the same. For the following jobs it has ***achieved transaction throughput of >3 million transactions per hour***:
+- **Built a framework for performing analytics/bulk jobs**: Designed and implemented an event driven framework based on map-reduce paradigm and master-worker framework for performing bulk jobs on our patient and appointment data corpus. It has the capability to scale horizontally and vertically based on the job requirements and is highly configurable for the same. For the following jobs it has ***achieved transaction throughput of >3 million transactions per hour***:
     - Patient data re-indexing
     - Data synchronization and analysis with externally onboarded healthcare organizations
     - Patient data re-encryption for enhanced data security and breach remediation
 - **Drug interaction checker for pharmacies**:
-    - Pioneered the development for patient EHR on-boarding and analyzing the patient prescriptions for insurance companies and pharmacies [ Can't disclose more due to NDA ]
-- Performed a POC on NLP and AI agent-based decision tree traversal for patients and agents using our healthcare application interfaces and data corpus [ Can't disclose more due to NDA ]
+    - Pioneered the development for patient EHR on-boarding and ML-based analytics of patient prescriptions for insurance companies and pharmacies
+    - This was done to analyze adverse drug interactions and provide a detailed risk report to the pharmacy outlets, healthcare providers and insurance providers at early stages of healthcare delivery
+    - Capable of flagging drugs which are not covered under the patient's insurance plan
+    - Capable of suggesting alternative drugs which are relevant w.r.t. both the patient's prescription and with insurance policies
+    - *This has reduced the number of adverse drug interaction reports by >10% and has decreased prescription based insurance claim conflicts by >30%*
 - **Patient & Appointment on-boarding project**:
-    - Analyzed, optimized and designed the entire core low-level workflow of 'patients and appointment on-boarding' system. Outcome was reduced application P99 latency by >80%, a horizontally scalable architecture and reduced associated service costs.
+    - Analyzed, optimized and designed the entire core low-level workflow of 'patients and appointment on-boarding' system
     - Led the development of this optimized version of this on-boarding system
+    - Outcome was reduced application P99 latency by >80%, a horizontally scalable architecture and reduced associated service costs
 - **Slot onboarding for external organizations**: For externally connected healthcare organizations for which provider slots were available externally, I built a system to hash and compare existing slot data within the system with the one fetched in real-time to trigger minimal updates in our consumer databases and search indexes. *This reduced weekly update frequency by >60% hence the cost of calling those external end-points.*
 - **Healthcare search improvements**: Was responsible for designing and executing several enhancements to our healthcare search algorithms. Thus *increasing our leads by 10%.*
     - *Fuzzy provider search*: A fuzzy search implementation for provider search workflows for more fluid navigation and searches within the decision tree.
-    - *Alternate provider recommendation*: A SVM-based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider
+    - *Alternate provider recommendation*: A SVM and kNN based recommender system for generating a list of alternate providers w.r.t. currently selected healthcare provider
+- **Built a distributed event delivery platform for inter-service event streaming:** 
+    - This allows a seamless event delivery through our business vertical to 
+      - multiple cloud providers
+      - service clients
+      - different business verticals within the organization
+- Performed a POC on NLP and AI agent-based decision tree traversal for patients and agents using our healthcare application interfaces and data corpus [ Can't disclose more due to NDA ]
 - As a personal achievement in this tenure:
     - I *received a commendation award* from our Director, Archana ❗️, in the year '24
     - I *achieved a 2nd rank* during Optum's Public International Hackathon in emerging-tech category
@@ -84,7 +111,7 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 - **E2E application streamlining project**: Streamlined and optimized the process of front-end calls to application end-points, **thereby reducing errors(from ~0.3% to ~0.025%)**, improving end-to-end application latency and latency for multiple end-points
 - As a personal achievement, I received a commendation award from our Director, Jaibeer Malik, in the year '21
 
-**Technologies used:** RDBMS:MySQL; AuroraDB, MongoDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, Python open-source libraries, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...)
+**Technologies used:** RDBMS:MySQL; AuroraDB, MongoDB, Java, Redis, Kafka, Java, Redis, Elasticsearch, Kafka, Debezium, Python, Python open-source libraries, PHP, Laravel, Scripting, Docker, Kubernetes, Neptune Graph database, AWS tools(SQS/SNS, DynamoDB, S3, EC2, Lambda's, MSK and more...), Anaconda, SciKit Learn, NumPy, Pandas, Matplotlib, AWS-Sagemaker
 
 ### **DocASAP** *Noida, NCR, India*
 
@@ -116,6 +143,25 @@ Email:: deyol.abhishek@gmail.com | Phone:: +91 8130867503 | Location:: New Delhi
 ---
 
 ## Personal projects - All on [Github](https://github.com/everrover/)
+
+Note: Except for the projects in progress all are private and can be shared only in person
+
+- **knights-and-chivalry** *(March 2025 - Present)* - [Github](https://github.com/everrover/knights-and-chivalry)
+  - An AI-agent based workflow using Langgraph/Langchain for performing a research around a topic on the web and generating a summary chatbot for the same. It is capable of using the generated summary and collated data to answer questions via a chat interface
+  - **Technologies used**: Python, Langgraph/Langchain, Elasticsearch, Pinecone VectorDB, VMWare, GPT APIs, Claude APIs, LLaMA & DeepSeek(for running locally)
+
+- **ice-and-laprus** *(November 2023 - January 2024)* - [Showcase](https://youtu.be/18mPdkuPuac) - [Github](https://github.com/everrover/icea-and-laprus)
+  - An AI-agent capable of writing posts, articles and solutions on a given GH repository. For a given web-page of an interview preparation topic as an input it can generate a written piece on the same
+  - **Technologies used**: Python, GPT APIs, Django, SQLite, Content generation:(Midjourney, DallE, ChatGPT)
+
+- **ascraeus-mons** *(March 2024 - Present)* - [Github](https://github.com/everrover/ascraeus-mons)
+  - A collection of posts, articles and solutions for many of the topics in computer science I have learned
+  - Older sets : [mount-kronos](https://github.com/everrover/mount-kronos)
+  - **Technologies used**: Java, Python, Markdown
+
+- **Personal website** *(Sept 2021 - Sep 2021)* - [everrover.com](https://everrover.com)
+  - Built a personal website to share my thoughts. It is built using NextJS, TailwindCSS and is deployed on Vercel
+  - **Technologies used**: NextJS, TailwindCSS, NodeJS, Google Analytics, Google Cloud functions, Firebase, FirestoreDB, Google Cloud Storage, Vercel
 
 - **Github Repository** *(Aug 2018 - Present)*
 
