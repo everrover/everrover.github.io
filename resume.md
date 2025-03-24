@@ -23,29 +23,29 @@ Email📧:: deyol.abhishek@gmail.com | Phone📱:: +91 8130867503 | Location📍
 
 ### *Professional skills*
 
-- <u>**Sofware development paradigms:**</u> **Microservices, Event-driven architecture, POC driven development(Rapid prototyping),** Working with design-patterns, Secure engineering, Test Driven Development/Behavior Driven Development
-- <u>**Programming languages:**</u> **Java, Python**, Bash scripting, PHP, Ruby
-- <u>**Frameworks and libraries:**</u> **Spring boot & Hibernate, Flask**, Laravel, Ruby on Rails
-- <u>**Databases:**</u> **ElasticSearch/OpenSearch, MongoDB, Cassandra, Redis, RDBMS:MySQL;AuroraDB;PostgreSQL**, MemCache, NeptuneDB, DynamoDB, Hadoop/HDFS
-- <u>**Event messaging:**</u> **Kafka, SNS/SQS**, ActiveMQ
-- <u>**Cloud services:**</u> **AWS**, Azure, Google-cloud
-- <u>**CI/CD:**</u> **Kubernetes, Docker, Github Actions**, EC2, Jenkins
-- <u>**Tools:**</u> **AWS suite** *(EC2, RDS, Secret Manager, SQS, SNS, Route53, KMS, OpenSearch, S3, Lambda, etc.)*, Drools, Debezium
-- <u>**Frontend programming:**</u> **ReactJS**, JavaScript, HTML5/CSS, Materialize
-- <u>**Deep-learning tools:**</u> Anaconda and major data manipulation libraries, SciKit Learn, NumPy, Pandas, Matplotlib, AWS-Sagemaker
+- **<u>Sofware development paradigms:</u>** **Microservices, Event-driven, Rapid prototyping,** Working with design-patterns, Secure engineering, Test Driven Development/Behavior Driven Development
+- **<u>Programming languages:</u>** **Java, Python**, Bash scripting, PHP, Ruby
+- **<u>Frameworks and libraries:</u>** **Spring boot & Hibernate, Flask**, Laravel, Ruby on Rails
+- **<u>Databases:</u>** **RDBMS:MySQL;AuroraDB;PostgreSQL, ElasticSearch/OpenSearch, MongoDB, Redis,** Cassandra, MemCache, NeptuneDB, DynamoDB, Hadoop/HDFS
+- **<u>Event messaging:</u>** **Kafka, SNS/SQS**, ActiveMQ
+- **<u>Cloud services:</u>** **AWS**, Azure, Google-cloud
+- **<u>CI/CD:</u>** **Kubernetes, Docker, Github Actions,** EC2, Jenkins
+- **<u>Tools:</u>** **AWS suite** *(EC2, RDS, Secret Manager, SQS, SNS, Route53, KMS, OpenSearch, S3, Lambda, etc.)*, Drools, Debezium
+- **<u>Frontend programming:</u>** **ReactJS**, JavaScript, HTML5/CSS, Materialize
+- **<u>Machine-learning tools:</u>** Anaconda and major data manipulation libraries, SciKit Learn, NumPy, Pandas, Matplotlib, AWS-Sagemaker
 
 ### *Self-acquired Computer System skills*
 
-- <u>**Programming languages and frameworks/libraries:**</u> **Python**, C++, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang, PHP, Ruby, Ruby on Rails, Django, Laravel, Flask, FastAPI
-- <u>**Databases:**</u> **ElasticSearch/OpenSearch, Pinecone VectorDB, Neo4j, Redis**, FirestoreDB, NeptuneDB, DynamoDB, Hadoop, HDFS, MongoDB, CouchBase, MemCache, RDBMS:MySQL;AuroraDB;PostgreSQL, Cassandra
-- <u>**Event messaging:**</u> **Kafka**, SNS/SQS, ActiveMQ, RabbitMQ, MQTT
-- <u>**Cloud services:**</u> **AWS**, Google-cloud, Firebase, Vercel
-- <u>**CI/CD:**</u> **Kubernetes, Docker, Github Actions**, EC2
-- <u>**Tools:**</u> AWS suite(EC2, S3, Lambda, etc.), Drools, Debezium
-- <u>**Frontend programming:**</u> **JavaScript, NextJS, TailwindCSS, ReactJS**, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, Bootstrap
-- <u>**Deep-learning tools:**</u> Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV, NumPy, Pandas, Matplotlib, Seaborn
-- <u>**AI tools:**</u> OpenAI GPTs, DeepSeek(for running locally), Claude, LLaMA(for running locally)
-- <u>**Agentic workflows:**</u> **Langchain/Langgraph**, CrewAI
+- **<u>Programming languages and frameworks/libraries:</u>** ***Python, C/C++***, JavaScript(NodeJS, ExpressJS), Powershell scripting, Golang, PHP, Ruby, Ruby on Rails, Django, Laravel, Flask, FastAPI
+- **<u>Databases:</u>** ***ElasticSearch/OpenSearch, Pinecone VectorDB, Neo4j, Redis***, FirestoreDB, NeptuneDB, DynamoDB, Hadoop, HDFS, MongoDB, CouchBase, MemCache, RDBMS:MySQL;AuroraDB;PostgreSQL, Cassandra
+- **<u>Event messaging:</u>** ***Kafka***, SNS/SQS, ActiveMQ, RabbitMQ, MQTT
+- **<u>Cloud services:</u>** ***AWS**, Google-cloud, Firebase, Vercel
+- **<u>CI/CD:</u>** **Kubernetes, Docker, Github Actions**, EC2
+- **<u>Tools:</u>** AWS suite(EC2, S3, Lambda, etc.), Drools, Debezium
+- **<u>Frontend programming:</u>** **JavaScript, NextJS, TailwindCSS, ReactJS**, HTML/HTML5, CSS, Sass/SCSS, Bulma, Materialize, Bootstrap
+- **<u>Deep-learning tools:</u>** Keras, PyTorch, Anaconda and major data manipulation libraries, SciKit Learn, OpenCV, NumPy, Pandas, Matplotlib, Seaborn
+- **<u>AI tools:</u>** OpenAI GPTs, DeepSeek(for running locally), Claude, LLaMA(for running locally)
+- **<u>Agentic workflows:</u>** **Langchain/Langgraph**, CrewAI
 
 
 ### *Cybersecurity* - the very basics, will be learning more in-depth the future
@@ -81,9 +81,9 @@ Email📧:: deyol.abhishek@gmail.com | Phone📱:: +91 8130867503 | Location📍
     - Data synchronization and analysis with externally onboarded healthcare organizations
     - Patient data re-encryption for enhanced data security and breach remediation
 - **Drug interaction checker for pharmacies**:
-    - Pioneered the development for patient EHR on-boarding and ML-based analytics of patient prescriptions for insurance companies and pharmacies
+    - Pioneered the development for patient EHR on-boarding and ML-based analytics and a collection of patient prescription models for insurance companies and pharmacies
     - This was done to analyze adverse drug interactions and provide a detailed risk report to the pharmacy outlets, healthcare providers and insurance providers at early stages of healthcare delivery
-    - Capable of flagging drugs which are not covered under the patient's insurance plan
+    - System is capable of flagging drugs which are not covered under the patient's insurance plan
     - Capable of suggesting alternative drugs which are relevant w.r.t. both the patient's prescription and with insurance policies
     - *This has reduced the number of adverse drug interaction reports by >10% and has decreased prescription based insurance claim conflicts by >30%*
 - **Patient & Appointment on-boarding project**:
@@ -150,8 +150,8 @@ Note: Except for the projects in progress all are private and can be shared only
   - An AI-agent based workflow using Langgraph/Langchain for performing a research around a topic on the web and generating a summary chatbot for the same. It is capable of using the generated summary and collated data to answer questions via a chat interface
   - **Technologies used**: Python, Langgraph/Langchain, Elasticsearch, Pinecone VectorDB, VMWare, GPT APIs, Claude APIs, LLaMA & DeepSeek(for running locally)
 
-- **ice-and-laprus** *(November 2023 - January 2024)* - [Showcase](https://youtu.be/18mPdkuPuac) - [Github](https://github.com/everrover/icea-and-laprus)
-  - An AI-agent capable of writing posts, articles and solutions on a given GH repository. For a given web-page of an interview preparation topic as an input it can generate a written piece on the same
+- **ice-and-laprus** *(February 2023 - March 2023)* - [Showcase](https://youtu.be/18mPdkuPuac) - [Github](https://github.com/everrover/icea-and-laprus)
+  - A chrome plugin which interacts with an AI-agent capable and of writing posts, articles and solutions to presented problems. For a given web-page of an interview preparation topic as an input it can generate a written piece on the same
   - **Technologies used**: Python, GPT APIs, Django, SQLite, Content generation:(Midjourney, DallE, ChatGPT)
 
 - **ascraeus-mons** *(March 2024 - Present)* - [Github](https://github.com/everrover/ascraeus-mons)
